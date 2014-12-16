@@ -1,6 +1,6 @@
 <Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs" 
   background-color="green"
-  background-image="../../data/images/checker.jpg"
+  background-image="../data/checker.jpg"
   background-image-opacity=".5"
   background-image-comp-op="soft-light"
   >

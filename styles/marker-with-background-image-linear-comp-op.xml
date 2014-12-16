@@ -1,5 +1,6 @@
-<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs" background-image="../../data/images/checker.jpg">
-
+<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+  background-image="../data/checker.jpg"
+>
     <Style name="ellipse">
         <Rule>
             <MarkersSymbolizer
