@@ -12,7 +12,7 @@
     <StyleName>heat</StyleName>
     <Datasource>
        <!-- created with nearblack -o r.tif -of GTiff -white tests/visual_tests/data/heat.tif -setmask  tests/visual_tests/data/heat_rgb.tif -->
-       <Parameter name="file">../data/heat_rgb.tif</Parameter>
+       <Parameter name="file">../../test-data/raster/heat_rgb.tif</Parameter>
        <Parameter name="type">gdal</Parameter>
        <Parameter name="nodata">255</Parameter>
     </Datasource>

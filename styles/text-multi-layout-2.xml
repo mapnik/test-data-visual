@@ -19,7 +19,7 @@ lat,long
 
   <Style name="points">
     <Rule>
-      <PointSymbolizer allow-overlap="true" ignore-placement="true" file="../../data/raster/white-alpha.png"/>
+      <PointSymbolizer allow-overlap="true" ignore-placement="true" file="../../test-data/raster/white-alpha.png"/>
       <TextSymbolizer face-name="DejaVu Sans Bold" size="16" wrap-width="60" placement="point" dx="-15" dy="-10">
         "Symbolizer Base Text"
         <Format face-name="DejaVu Sans Book" size="12">

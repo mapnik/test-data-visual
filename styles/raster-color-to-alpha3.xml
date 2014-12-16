@@ -15,7 +15,7 @@
     <StyleName>style</StyleName>
     <Datasource>
        <!-- https://github.com/mapnik/mapnik/issues/1471 -->
-       <Parameter name="file">../../data/raster/transp.tiff</Parameter>
+       <Parameter name="file">../../test-data/raster/transp.tiff</Parameter>
        <Parameter name="type">gdal</Parameter>
     </Datasource>
   </Layer>

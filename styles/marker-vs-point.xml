@@ -2,7 +2,7 @@
      background-color="green"
      background-image-opacity="0.8"
      background-image-comp-op="screen"
-     background-image="../data/pattern.png">
+     background-image="../../test-data/images/pattern.png">
   <Parameters>
     <Parameter name="sizes">512,512</Parameter>
   </Parameters>
@@ -12,7 +12,7 @@
       <MarkersSymbolizer
 	  width="60"
 	  height="60"
-	  file="../../data/svg/transparent_circle.svg"
+	  file="../../test-data/svg/transparent_circle.svg"
 	  />
     </Rule>
   </Style>
@@ -20,7 +20,7 @@
   <Style name="points">
     <Rule>
       <PointSymbolizer
-	  file="../../data/svg/transparent_circle.svg"
+	  file="../../test-data/svg/transparent_circle.svg"
 	  />
     </Rule>
   </Style>

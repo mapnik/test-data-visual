@@ -25,7 +25,7 @@
     <Datasource>
        <Parameter name="type">csv</Parameter>
        <Parameter name="extent">-10, 0, 15, 20</Parameter>
-       <Parameter name="file">../data/marker-on-line.csv</Parameter>
+       <Parameter name="file">../../test-data/csv/marker-on-line.csv</Parameter>
        <Parameter name="separator">|</Parameter>
     </Datasource>
   </Layer>

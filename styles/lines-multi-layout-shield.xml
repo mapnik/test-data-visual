@@ -12,7 +12,7 @@
         <StyleName>text</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
-            <Parameter name="file">../data/lines.csv</Parameter>
+            <Parameter name="file">../../test-data/csv/lines.csv</Parameter>
         </Datasource>
     </Layer>
 
@@ -24,7 +24,7 @@
 
     <Style name="text">
         <Rule>
-            <ShieldSymbolizer placement="line" spacing="60" minimum-distance="10" label-position-tolerance="0.5" face-name="DejaVu Sans Bold" size="14" fill="#ffffff" file="../../data/svg/rect.svg">
+            <ShieldSymbolizer placement="line" spacing="60" minimum-distance="10" label-position-tolerance="0.5" face-name="DejaVu Sans Bold" size="14" fill="#ffffff" file="../../test-data/svg/rect.svg">
                 [nr]
                 <Format size="10" face-name="DejaVu Sans Book" fill="#000000" halo-fill="rgba(255,255,255,0.6)" halo-radius="1.5">
                     <Layout dy="-10">"SOUTH"</Layout>

@@ -2,7 +2,7 @@
 
     <Style name="ellipse">
         <Rule>
-            <MarkersSymbolizer file="../../data/svg/[FILENAME].[FILETYPE]" />
+            <MarkersSymbolizer file="../../test-data/svg/[FILENAME].[FILETYPE]" />
         </Rule>
     </Style>
 

@@ -16,7 +16,7 @@
     <Datasource>
        <!-- tiffinfo data/raster/white-alpha-assoc-alpha-wrong.tiff reports 'Extra Samples: 1<assoc-alpha>' which is incorrect --> 
        <!-- https://github.com/mapnik/mapnik/issues/1511 -->
-       <Parameter name="file">../../data/raster/white-alpha-assoc-alpha-wrong.tiff</Parameter>
+       <Parameter name="file">../../test-data/raster/white-alpha-assoc-alpha-wrong.tiff</Parameter>
        <Parameter name="type">gdal</Parameter>
     </Datasource>
   </Layer>

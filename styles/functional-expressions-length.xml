@@ -16,7 +16,7 @@
     <Rule>
       <Filter>[mapnik::geometry_type]=point</Filter>
       <MarkersSymbolizer
-	  file="../../../[base-path]/[filetype]/[filename].[filetype]"
+	  file="../../[base-path]/[filetype]/[filename].[filetype]"
 	  width="exp(0.4*length([name]))"
 	  />
     </Rule>
@@ -50,7 +50,7 @@
       "type" : "Point"
       },
       "properties" : {
-      "base-path":"./tests/data",
+      "base-path":"./test-data",
       "filetype":"svg",
       "filename":"octocat",
       "width":"5",
@@ -65,7 +65,7 @@
       "type" : "Point"
       },
       "properties" : {
-      "base-path":"./tests/data",
+      "base-path":"./test-data",
       "filetype":"svg",
       "filename":"octocat",
       "width":"5",
@@ -80,7 +80,7 @@
       "type" : "Point"
       },
       "properties" : {
-      "base-path":"./tests/data",
+      "base-path":"./test-data",
       "filetype":"svg",
       "filename":"octocat",
       "name": "tiny cat"
@@ -93,7 +93,7 @@
       "type" : "Point"
       },
       "properties" : {
-      "base-path":"./tests/data",
+      "base-path":"./test-data",
       "filetype":"svg",
       "filename":"octocat",
       "name": "small cat"
@@ -106,7 +106,7 @@
       "type" : "Point"
       },
       "properties" : {
-      "base-path":"./tests/data",
+      "base-path":"./test-data",
       "filetype":"svg",
       "filename":"octocat",
       "name": "small cat"

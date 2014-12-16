@@ -6,22 +6,22 @@
     <Style name="polygon">
         <Rule>
             <PolygonPatternSymbolizer
-              file="../../data/images/stripes_pattern.png"
+              file="../../test-data/images/stripes_pattern.png"
               geometry-transform="translate(2,2)"
             />
             <PolygonPatternSymbolizer
-              file="../data/pattern.png"
+              file="../../test-data/images/pattern.png"
             />
         </Rule>
     </Style>
     <Style name="line">
         <Rule>
             <LinePatternSymbolizer
-              file="../../data/images/stripes_pattern.png"
+              file="../../test-data/images/stripes_pattern.png"
               geometry-transform="translate(-3,-3)"
             />
             <LinePatternSymbolizer
-              file="../../data/images/stripes_pattern.png"
+              file="../../test-data/images/stripes_pattern.png"
               geometry-transform="translate(3,3)"
             />
         </Rule>

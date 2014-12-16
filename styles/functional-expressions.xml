@@ -19,7 +19,7 @@
         <Rule>
             <Filter>[mapnik::geometry_type]=point</Filter>
             <MarkersSymbolizer
-                file="../../../[base-path]/[filetype]/[filename].[filetype]"
+                file="../../[base-path]/[filetype]/[filename].[filetype]"
                 width="exp([width])"
             />
         </Rule>
@@ -53,7 +53,7 @@
                             "type" : "Point"
                          },
                          "properties" : {
-                            "base-path":"./tests/data",
+                            "base-path":"./test-data",
                             "filetype":"svg",
                             "filename":"octocat",
                             "width":"5",

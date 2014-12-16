@@ -12,23 +12,23 @@
         </Rule>
         <Rule>
             <Filter>[id] = 'allow-overlap'</Filter>
-            <MarkersSymbolizer allow-overlap="[value]" file="../../data/images/crosshair16x16.png" />
+            <MarkersSymbolizer allow-overlap="[value]" file="../../test-data/images/crosshair16x16.png" />
         </Rule>
         <Rule>
             <Filter>[id] = 'opacity'</Filter>
-            <MarkersSymbolizer opacity="[value]" file="../../data/images/crosshair16x16.png" />
+            <MarkersSymbolizer opacity="[value]" file="../../test-data/images/crosshair16x16.png" />
         </Rule>
         <Rule>
             <Filter>[id] = 'transform'</Filter>
-            <MarkersSymbolizer transform="scale([value],[value])" file="../../data/images/crosshair16x16.png" />
+            <MarkersSymbolizer transform="scale([value],[value])" file="../../test-data/images/crosshair16x16.png" />
         </Rule>
         <Rule>
             <Filter>[id] = 'ignore-placement'</Filter>
-            <MarkersSymbolizer ignore-placement="[value]" file="../../data/images/crosshair16x16.png" />
+            <MarkersSymbolizer ignore-placement="[value]" file="../../test-data/images/crosshair16x16.png" />
         </Rule>
         <Rule>
             <Filter>[id] = 'comp-op'</Filter>
-            <MarkersSymbolizer comp-op="[value]" file="../../data/images/crosshair16x16.png" />
+            <MarkersSymbolizer comp-op="[value]" file="../../test-data/images/crosshair16x16.png" />
         </Rule>
         <Rule>
             <TextSymbolizer dy='-20' face-name='DejaVu Sans Book' halo-fill='#ffffff' halo-radius='1'>[id]</TextSymbolizer>
@@ -71,7 +71,7 @@ Polygon((-180.0 -125.0, -180.0 125.0, 180.0 125.0, 180.0 -125.0, -180.0 -125.0))
             <Parameter name="type">csv</Parameter>
             <Parameter name="inline">
 id|value|wkt
-file|../../data/images/crosshair16x16.png|Point(-130 -70)
+file|../../test-data/images/crosshair16x16.png|Point(-130 -70)
 allow-overlap|true|Point(0 -70)
 opacity|.5|Point(130 -70)
 transform|1.2|Point(-130 30)

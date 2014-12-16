@@ -27,7 +27,7 @@ lat,long,name,nr,color,type,empty-string
 
     <Style name="My Style">
     <Rule>
-      <ShieldSymbolizer face-name="DejaVu Sans Book" size="16" placement="point" dx="5" dy="16" file="../../data/[type]/[empty-string]crosshair16x16.svg" horizontal-alignment="middle" vertical-alignment="middle" placement-type="simple" placements="N,S,E,W,SW,10,5">[name]</ShieldSymbolizer>
+      <ShieldSymbolizer face-name="DejaVu Sans Book" size="16" placement="point" dx="5" dy="16" file="../../test-data/[type]/[empty-string]crosshair16x16.svg" horizontal-alignment="middle" vertical-alignment="middle" placement-type="simple" placements="N,S,E,W,SW,10,5">[name]</ShieldSymbolizer>
       <PointSymbolizer allow-overlap="true"/>
     </Rule>
   </Style>

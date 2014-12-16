@@ -14,7 +14,7 @@
     <Layer name="road" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
         <StyleName>road</StyleName>
         <Datasource>
-            <Parameter name="file">../data/overlap</Parameter>
+            <Parameter name="file">../../test-data/shp/overlap</Parameter>
             <Parameter name="type">shape</Parameter>
         </Datasource>
     </Layer>

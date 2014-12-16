@@ -51,7 +51,7 @@ Polygon((-180.0 -125.0, -180.0 125.0, 180.0 125.0, 180.0 -125.0, -180.0 -125.0))
             <Parameter name="type">csv</Parameter>
             <Parameter name="inline">
 id|value|wkt
-file|../../data/images/crosshair16x16.png|Point(-130 -70)
+file|../../test-data/images/crosshair16x16.png|Point(-130 -70)
             </Parameter>
         </Datasource>
     </Layer>

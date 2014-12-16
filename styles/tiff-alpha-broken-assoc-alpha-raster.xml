@@ -17,7 +17,7 @@
     <Datasource>
        <!-- tiffinfo data/raster/white-alpha-assoc-alpha-wrong.tiff reports 'Extra Samples: 1<assoc-alpha>' which is incorrect --> 
        <!-- https://github.com/mapnik/mapnik/issues/1511 --> 
-       <Parameter name="file">../../data/raster/white-alpha-assoc-alpha-wrong.tiff</Parameter>
+       <Parameter name="file">../../test-data/raster/white-alpha-assoc-alpha-wrong.tiff</Parameter>
        <Parameter name="type">raster</Parameter>
        <Parameter name="extent">1001859.9561,5922814.94334,1021141.75555,5942096.74279</Parameter>
     </Datasource>

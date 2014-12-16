@@ -9,7 +9,7 @@
         <Datasource>
             <Parameter name="type">csv</Parameter>
             <Parameter name="extent">-5.192, 50.189, -5.174, 50.195</Parameter>
-            <Parameter name="file">../data/line-offset.csv</Parameter>
+            <Parameter name="file">../../test-data/csv/line-offset.csv</Parameter>
         </Datasource>
     </Layer>
 

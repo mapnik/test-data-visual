@@ -11,7 +11,7 @@
   srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
     <StyleName>heat</StyleName>
     <Datasource>
-       <Parameter name="file">../data/heat.tif</Parameter>
+       <Parameter name="file">../../test-data/raster/heat.tif</Parameter>
        <Parameter name="type">gdal</Parameter>
     </Datasource>
   </Layer>
