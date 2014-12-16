@@ -1,0 +1,1 @@
+Visual Test Suite for Mapnik
