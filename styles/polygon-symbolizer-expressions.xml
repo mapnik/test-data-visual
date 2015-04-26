@@ -34,7 +34,7 @@
       frame is a layer with a single polygon that is used to ensure that m.zoom_all() will zoom the
       map to a reasonable bounding extent to make the test easy to view with tools like nik2img.py
       (which calls m.zoom_all() by default). Another approach in >= Mapnik 2.3.x is to just sent a
-      manual `extent` for the CSV datasource.
+      manual `extent` for the CSV test-datasource.
     -->
 
     <Layer name="frame" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
@@ -49,7 +49,7 @@ Polygon((-180.0 -125.0, -180.0 125.0, 180.0 125.0, 180.0 -125.0, -180.0 -125.0))
     </Layer>
 
     <!-- 
-      "bug" is a layer that should provide sample data that triggers the bug in question. It is
+      "bug" is a layer that should provide sample test-data that triggers the bug in question. It is
       listed after the "frame" layer so that it renders on top and is visible.
     -->
 

@@ -1,4 +1,4 @@
-<Map font-directory="../fonts/Noto/NotoNaskhArabic-Regular.ttf">
+<Map font-directory="../../test-data/fonts/Noto/NotoNaskhArabic-Regular.ttf">
 
     <Parameters>
         <Parameter name="sizes">512,512</Parameter>
@@ -13,7 +13,7 @@
     <Layer name="layer">
     <StyleName>style</StyleName>
     <Datasource>
-        <Parameter name="file">../data/kurdish.geojson</Parameter>
+        <Parameter name="file">../../test-data/json/kurdish.geojson</Parameter>
         <Parameter name="type">ogr</Parameter>
         <Parameter name="layer_by_index">0</Parameter>
     </Datasource>

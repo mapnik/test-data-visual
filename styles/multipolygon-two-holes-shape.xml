@@ -16,7 +16,7 @@
         <StyleName>polygon</StyleName>
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">../../data/shp/poly-multihole.shp</Parameter>
+            <Parameter name="file">../../test-data/shp/poly-multihole.shp</Parameter>
         </Datasource>
     </Layer>
 </Map>

@@ -10,7 +10,7 @@
             <LineSymbolizer stroke="#00FF00"/>
         </Rule>
         <Rule>
-            <LinePatternSymbolizer file="../../data/pngsuite/linepattern.png"/>
+            <LinePatternSymbolizer file="../../test-data/pngsuite/linepattern.png"/>
         </Rule>
     </Style>
 
@@ -18,7 +18,7 @@
         <StyleName>My Style</StyleName>
         <Datasource>
             <Parameter name="type">geojson</Parameter>
-            <Parameter name="file">../data/landuse.geojson</Parameter>
+            <Parameter name="file">../../test-data/json/landuse.geojson</Parameter>
         </Datasource>
     </Layer>
 

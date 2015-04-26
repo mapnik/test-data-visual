@@ -17,7 +17,7 @@
         <Datasource>
             <Parameter name="type">ogr</Parameter>
             <Parameter name="layer_by_index">0</Parameter>
-            <Parameter name="file">../../data/shp/poly-multihole.shp</Parameter>
+            <Parameter name="file">../../test-data/shp/poly-multihole.shp</Parameter>
         </Datasource>
     </Layer>
 </Map>

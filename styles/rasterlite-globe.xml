@@ -14,7 +14,7 @@
         <Datasource>
             <Parameter name="type">rasterlite</Parameter>
             <Parameter name="table">globe</Parameter>
-            <Parameter name="file">../../data/rasterlite/globe.sqlite</Parameter>
+            <Parameter name="file">../../test-data/rasterlite/globe.sqlite</Parameter>
         </Datasource>
     </Layer>
 

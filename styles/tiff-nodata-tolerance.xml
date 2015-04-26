@@ -14,8 +14,8 @@
     <Datasource>
         <Parameter name="file">../../test-data/raster/Yosemite_L9.tif</Parameter>
         <Parameter name="type">gdal</Parameter>
-        <Parameter name="nodata">255</Parameter>
-        <Parameter name="nodata_tolerance">100</Parameter>
+        <Parameter name="notest-data">255</Parameter>
+        <Parameter name="notest-data_tolerance">100</Parameter>
     </Datasource>
 </Layer>
 
