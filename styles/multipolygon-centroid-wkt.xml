@@ -15,7 +15,7 @@
     <StyleName>poly</StyleName>
     <Datasource>
        <Parameter name="type">csv</Parameter>
-       <Parameter name="file">../test-data/issue_2062.csv</Parameter>
+       <Parameter name="file">../../test-data/csv/issue_2062.csv</Parameter>
     </Datasource>
   </Layer>
 </Map>
