@@ -11,7 +11,7 @@
         <StyleName>My Style</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
-            <Parameter name="file">../../test-data/csv/lines2.csv</Parameter>
+            <Parameter name="file">../../data/csv/lines2.csv</Parameter>
         </Datasource>
     </Layer>
 

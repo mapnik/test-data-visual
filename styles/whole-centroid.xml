@@ -18,7 +18,7 @@
     <Datasource>
        <Parameter name="type">csv</Parameter>
        <Parameter name="extent">736908, 4390316, 2060771, 5942346</Parameter>
-       <Parameter name="file">../../test-data/csv/whole-centroid.csv</Parameter>
+       <Parameter name="file">../../data/csv/whole-centroid.csv</Parameter>
        <Parameter name="separator">|</Parameter>
     </Datasource>
   </Layer>

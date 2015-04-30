@@ -32,7 +32,7 @@
     <StyleName>largest</StyleName>
     <Datasource>
        <Parameter name="type">csv</Parameter>
-       <Parameter name="file">../../test-data/csv/marker-multi-policy.csv</Parameter>
+       <Parameter name="file">../../data/csv/marker-multi-policy.csv</Parameter>
        <Parameter name="separator">|</Parameter>
     </Datasource>
   </Layer>

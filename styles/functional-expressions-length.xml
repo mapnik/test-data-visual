@@ -50,7 +50,7 @@
       "type" : "Point"
       },
       "properties" : {
-      "base-path":"./test-data",
+      "base-path":"./data",
       "filetype":"svg",
       "filename":"octocat",
       "width":"5",
@@ -65,7 +65,7 @@
       "type" : "Point"
       },
       "properties" : {
-      "base-path":"./test-data",
+      "base-path":"./data",
       "filetype":"svg",
       "filename":"octocat",
       "width":"5",
@@ -80,7 +80,7 @@
       "type" : "Point"
       },
       "properties" : {
-      "base-path":"./test-data",
+      "base-path":"./data",
       "filetype":"svg",
       "filename":"octocat",
       "name": "tiny cat"
@@ -93,7 +93,7 @@
       "type" : "Point"
       },
       "properties" : {
-      "base-path":"./test-data",
+      "base-path":"./data",
       "filetype":"svg",
       "filename":"octocat",
       "name": "small cat"
@@ -106,7 +106,7 @@
       "type" : "Point"
       },
       "properties" : {
-      "base-path":"./test-data",
+      "base-path":"./data",
       "filetype":"svg",
       "filename":"octocat",
       "name": "small cat"

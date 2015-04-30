@@ -1,6 +1,6 @@
 <Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs" 
   background-color="green"
-  background-image="../../test-data/images/checker.jpg"
+  background-image="../../data/images/checker.jpg"
   background-image-opacity=".5"
   background-image-comp-op="soft-light"
   >
@@ -17,7 +17,7 @@
         <StyleName>ellipse</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
-            <Parameter name="file">../../test-data/csv/marker-multi-policy.csv</Parameter>
+            <Parameter name="file">../../data/csv/marker-multi-policy.csv</Parameter>
         </Datasource>
     </Layer>
 </Map>

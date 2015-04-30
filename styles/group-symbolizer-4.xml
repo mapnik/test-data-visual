@@ -35,27 +35,27 @@ lat,long,ref1,ref2,ref3,ref4,ref5,ref6,ref7,ref8,ref9,ref10
         </GroupRule>
         <GroupRule>
           <Filter>[ref%] = 4</Filter>
-          <MarkersSymbolizer file="../../test-data/images/crosshair16x16.png"/>
+          <MarkersSymbolizer file="../../data/images/crosshair16x16.png"/>
           <TextSymbolizer face-name="DejaVu Sans Book" size="12" placement="point" dy="-5" dx="-5" horizontal-alignment="left" vertical-alignment="top">[ref%]</TextSymbolizer>
         </GroupRule>
         <GroupRule>
           <Filter>[ref%] = 5</Filter>
-          <MarkersSymbolizer file="../../test-data/images/marker.png" comp-op="xor"/>
+          <MarkersSymbolizer file="../../data/images/marker.png" comp-op="xor"/>
           <TextSymbolizer face-name="DejaVu Sans Bold" size="16" placement="point">[ref%]</TextSymbolizer>
         </GroupRule>
         <GroupRule>
           <Filter>[ref%] = 6</Filter>
-          <MarkersSymbolizer file="../../test-data/svg/rect.svg" />
+          <MarkersSymbolizer file="../../data/svg/rect.svg" />
           <TextSymbolizer face-name="DejaVu Sans Book" size="14" placement="point">[ref%]</TextSymbolizer>
         </GroupRule>
         <GroupRule>
           <Filter>[ref%] = 7</Filter>
-          <MarkersSymbolizer file="../../test-data/svg/rect.svg" width="20" height="20" fill="red" stroke="white" stroke-width="3" />
+          <MarkersSymbolizer file="../../data/svg/rect.svg" width="20" height="20" fill="red" stroke="white" stroke-width="3" />
           <TextSymbolizer face-name="DejaVu Sans Bold" size="14" fill="white" placement="point">[ref%]</TextSymbolizer>
         </GroupRule>
         <GroupRule>
           <Filter>[ref%] = 8</Filter>
-          <MarkersSymbolizer file="../../test-data/svg/rect.svg" comp-op="grain-extract"/>
+          <MarkersSymbolizer file="../../data/svg/rect.svg" comp-op="grain-extract"/>
           <TextSymbolizer face-name="DejaVu Sans Book" size="14" placement="point">[ref%]</TextSymbolizer>
         </GroupRule>
       </GroupSymbolizer>

@@ -1,5 +1,5 @@
 <Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
-  background-image="../../test-data/images/checker.jpg"
+  background-image="../../data/images/checker.jpg"
 >
     <Parameters>
         <Parameter name="sizes">600,400; 400,600; 257,256</Parameter>

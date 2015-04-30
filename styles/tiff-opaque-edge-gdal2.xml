@@ -13,7 +13,7 @@
     <Datasource>
        <!-- https://github.com/mapnik/mapnik/issues/1508 -->
        <!-- note: this mis-reports it is premultiplied - it is not -->
-       <Parameter name="file">../../test-data/raster/river_merc.tiff</Parameter>
+       <Parameter name="file">../../data/raster/river_merc.tiff</Parameter>
        <Parameter name="type">gdal</Parameter>
     </Datasource>
   </Layer>

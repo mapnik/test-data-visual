@@ -11,10 +11,10 @@
   srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
     <StyleName>heat</StyleName>
     <Datasource>
-       <Parameter name="file">../../test-data/raster/aerial_rgba.tiff</Parameter>
+       <Parameter name="file">../../data/raster/aerial_rgba.tiff</Parameter>
        <Parameter name="type">gdal</Parameter>
-       <Parameter name="notest-data">255</Parameter>
-       <Parameter name="notest-data_tolerance">5</Parameter>
+       <Parameter name="nodata">255</Parameter>
+       <Parameter name="nodata_tolerance">5</Parameter>
     </Datasource>
   </Layer>
 </Map>

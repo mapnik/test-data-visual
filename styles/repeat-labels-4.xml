@@ -21,7 +21,7 @@
     <Style name="shield">
         <Rule>
             <Filter>[type] = 'motorway'</Filter>
-            <ShieldSymbolizer margin="10" repeat-distance="60" spacing="120" placement="line" face-name="DejaVu Sans Book" size="10" fill="white" file="../../test-data/svg/rect.svg" transform="scale(0.75)">[ref]</ShieldSymbolizer>
+            <ShieldSymbolizer margin="10" repeat-distance="60" spacing="120" placement="line" face-name="DejaVu Sans Book" size="10" fill="white" file="../../data/svg/rect.svg" transform="scale(0.75)">[ref]</ShieldSymbolizer>
         </Rule>
     </Style>
 
@@ -40,7 +40,7 @@
         <Datasource>
             <Parameter name="type">csv</Parameter>
             <Parameter name="extent">-12, -4, 12, 4</Parameter>
-            <Parameter name="file">../../test-data/csv/repeat-labels.csv</Parameter>
+            <Parameter name="file">../../data/csv/repeat-labels.csv</Parameter>
         </Datasource>
     </Layer>
 

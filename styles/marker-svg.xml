@@ -3,19 +3,19 @@
     <Style name="ellipse">
         <Rule>
             <Filter>[id]=1</Filter>
-            <MarkersSymbolizer file="../../test-data/svg/rect-no-fill.svg" />
+            <MarkersSymbolizer file="../../data/svg/rect-no-fill.svg" />
         </Rule>
         <Rule>
             <Filter>[id]=2</Filter>
-            <MarkersSymbolizer fill-opacity=".5" file="../../test-data/svg/rect2.svg" />
+            <MarkersSymbolizer fill-opacity=".5" file="../../data/svg/rect2.svg" />
         </Rule>
         <Rule>
             <Filter>[id]=3</Filter>
-            <MarkersSymbolizer file="../../test-data/svg/rect-no-stroke.svg" />
+            <MarkersSymbolizer file="../../data/svg/rect-no-stroke.svg" />
         </Rule>
         <Rule>
             <Filter>[id]=4</Filter>
-            <MarkersSymbolizer stroke-width="2" stroke-opacity=".5" file="../../test-data/svg/rect-no-stroke.svg" />
+            <MarkersSymbolizer stroke-width="2" stroke-opacity=".5" file="../../data/svg/rect-no-stroke.svg" />
         </Rule>
     </Style>
 

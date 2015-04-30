@@ -65,7 +65,7 @@
   <Layer name="dataraster" srs="+init=epsg:32630">
       <StyleName>DISCRETE RAINBOW</StyleName>
       <Datasource>
-          <Parameter name="file">../../test-data/raster/dataraster.tif</Parameter>
+          <Parameter name="file">../../data/raster/dataraster.tif</Parameter>
           <Parameter name="type">gdal</Parameter>
           <Parameter name="band">1</Parameter>
       </Datasource>

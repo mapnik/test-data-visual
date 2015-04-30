@@ -19,7 +19,7 @@
         <StyleName>style</StyleName>
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">../../test-data/shp/line.shp</Parameter>
+            <Parameter name="file">../../data/shp/line.shp</Parameter>
         </Datasource>
     </Layer>
 </Map>

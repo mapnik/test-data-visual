@@ -61,7 +61,7 @@
     <StyleName>fill</StyleName>
     <StyleName>marking</StyleName>
     <Datasource>
-       <Parameter name="file">../../test-data/sqlite/grouped-rendering.sqlite</Parameter>
+       <Parameter name="file">../../data/sqlite/grouped-rendering.sqlite</Parameter>
        <Parameter name="table">(SELECT fid, geometry, type, tunnel, bridge, oneway, class, z_order, CAST((z_order / 10.0) AS INTEGER) AS z
 FROM roads ORDER BY z_order) AS road</Parameter>
        <Parameter name="type">sqlite</Parameter>

@@ -53,7 +53,7 @@
                             "type" : "Point"
                          },
                          "properties" : {
-                            "base-path":"./test-data",
+                            "base-path":"./data",
                             "filetype":"svg",
                             "filename":"octocat",
                             "width":"5",

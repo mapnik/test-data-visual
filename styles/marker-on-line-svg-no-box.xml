@@ -37,13 +37,13 @@
 
     <Style name="alpha">
         <Rule>
-            <MarkersSymbolizer fill="blue" width="20" file="../../test-data/svg/airfield-12-nobox.svg" allow-overlap="false" placement="line" spacing="25"/>
+            <MarkersSymbolizer fill="blue" width="20" file="../../data/svg/airfield-12-nobox.svg" allow-overlap="false" placement="line" spacing="25"/>
             <LineSymbolizer stroke-width="0.2" stroke="#ff0000" />
         </Rule>
     </Style>
     <Style name="beta">
         <Rule>
-            <MarkersSymbolizer fill="blue" width="20" file="../../test-data/svg/airfield-12-nobox.svg" allow-overlap="false" placement="line" spacing="20"/>
+            <MarkersSymbolizer fill="blue" width="20" file="../../data/svg/airfield-12-nobox.svg" allow-overlap="false" placement="line" spacing="20"/>
             <LineSymbolizer stroke-width="0.2" stroke="#ff0000" />
             <DebugSymbolizer />
         </Rule>

@@ -15,7 +15,7 @@
   srs="+init=epsg:26910">
     <StyleName>samp1</StyleName>
     <Datasource>
-       <Parameter name="file">../../test-data/raster/lower_columbia.tif</Parameter>
+       <Parameter name="file">../../data/raster/lower_columbia.tif</Parameter>
        <Parameter name="type">gdal</Parameter>
     </Datasource>
   </Layer>

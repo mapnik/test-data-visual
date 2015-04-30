@@ -10,7 +10,7 @@
         <StyleName>My Style</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
-            <Parameter name="file">../../test-data/csv/lines.csv</Parameter>
+            <Parameter name="file">../../data/csv/lines.csv</Parameter>
         </Datasource>
     </Layer>
 
@@ -18,7 +18,7 @@
         <Rule>
             <Filter>[mapnik::geometry_type]=linestring</Filter>
             <LineSymbolizer stroke-width="1" stroke="blue"/>
-            <ShieldSymbolizer face-name="DejaVu Sans Book" size="16" placement="line" file="../../test-data/svg/crosshair16x16.svg" spacing="30">'X'</ShieldSymbolizer>
+            <ShieldSymbolizer face-name="DejaVu Sans Book" size="16" placement="line" file="../../data/svg/crosshair16x16.svg" spacing="30">'X'</ShieldSymbolizer>
         </Rule>
     </Style>
 

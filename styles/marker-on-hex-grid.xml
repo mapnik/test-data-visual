@@ -21,7 +21,7 @@
         <StyleName>1</StyleName>
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">../../test-data/shp/hex.shp</Parameter>
+            <Parameter name="file">../../data/shp/hex.shp</Parameter>
         </Datasource>
     </Layer>
 

@@ -9,7 +9,7 @@
         <StyleName>text</StyleName>
         <Datasource>
             <Parameter name="type">sqlite</Parameter>
-            <Parameter name="file">../../test-data/sqlite/text-data-binding.sqlite</Parameter>
+            <Parameter name="file">../../data/sqlite/text-data-binding.sqlite</Parameter>
             <Parameter name="table">text_layer</Parameter>
             <Parameter name="extent">-1,-1,1,1</Parameter>
         </Datasource>
@@ -18,7 +18,7 @@
         <StyleName>circular</StyleName>
         <Datasource>
             <Parameter name="type">sqlite</Parameter>
-            <Parameter name="file">../../test-data/sqlite/text-data-binding.sqlite</Parameter>
+            <Parameter name="file">../../data/sqlite/text-data-binding.sqlite</Parameter>
             <Parameter name="table">circular_layer</Parameter>
             <Parameter name="extent">-1,-1,1,1</Parameter>
         </Datasource>

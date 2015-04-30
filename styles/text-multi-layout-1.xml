@@ -24,7 +24,7 @@ lat,long,nr
 
   <Style name="obstacle">
     <Rule>
-      <PointSymbolizer file="../../test-data/svg/crosshair16x16.svg" transform="scale(0.5)"/>
+      <PointSymbolizer file="../../data/svg/crosshair16x16.svg" transform="scale(0.5)"/>
     </Rule>
   </Style>
 
@@ -45,7 +45,7 @@ lat,long,nr,ref
 
   <Style name="points">
     <Rule>
-      <PointSymbolizer allow-overlap="true" ignore-placement="true" file="../../test-data/raster/white-alpha.png"/>
+      <PointSymbolizer allow-overlap="true" ignore-placement="true" file="../../data/raster/white-alpha.png"/>
       <TextSymbolizer face-name="DejaVu Sans Book" placement="point" placement-type="list" size="16" dx="-4" dy="-8">
         "test "+[nr]
         <Layout dx="0" dy="8" horizontal-alignment="right">

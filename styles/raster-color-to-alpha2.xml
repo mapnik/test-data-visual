@@ -15,7 +15,7 @@
     <StyleName>style</StyleName>
     <Datasource>
        <!-- https://github.com/mapnik/mapnik/issues/1471 -->
-       <Parameter name="file">../../test-data/raster/river_merc.tiff</Parameter>
+       <Parameter name="file">../../data/raster/river_merc.tiff</Parameter>
        <Parameter name="type">gdal</Parameter>
     </Datasource>
   </Layer>

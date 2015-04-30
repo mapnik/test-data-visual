@@ -2,7 +2,7 @@
   background-color="green"
   background-image-opacity=".8"
   background-image-comp-op="screen"
-  background-image="../../test-data/images/pattern.png">
+  background-image="../../data/images/pattern.png">
     <Parameters>
         <Parameter name="sizes">512,512</Parameter>
     </Parameters>

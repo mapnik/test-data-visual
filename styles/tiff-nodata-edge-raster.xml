@@ -17,7 +17,7 @@
     <Datasource>
        <!-- https://github.com/mapnik/mapnik/issues/1508 -->
        <!-- note: this mis-reports it is premultiplied - it is not -->
-       <Parameter name="file">../../test-data/raster/nodata-edge.tif</Parameter>
+       <Parameter name="file">../../data/raster/nodata-edge.tif</Parameter>
        <Parameter name="type">raster</Parameter>
        <Parameter name="extent">-12329035.765216826,4508650.398543958,-12328653.027947057,4508957.346255356</Parameter>
     </Datasource>

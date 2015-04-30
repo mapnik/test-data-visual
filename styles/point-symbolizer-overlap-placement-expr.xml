@@ -57,22 +57,22 @@ lat,long,overlap,placement
     <Style name="My Style" filter-mode="first">
     <Rule>
       <Filter>[overlap] = "noexpr-true" and [placement] = "noexpr-true"</Filter>
-      <PointSymbolizer allow-overlap="true" ignore-placement="true" file="../../test-data/svg/point_sm.svg" />
+      <PointSymbolizer allow-overlap="true" ignore-placement="true" file="../../data/svg/point_sm.svg" />
     </Rule>
     <Rule>
       <Filter>[overlap] = "noexpr-true" and [placement] = "noexpr-false"</Filter>
-      <PointSymbolizer allow-overlap="true" ignore-placement="false" file="../../test-data/svg/point_sm.svg" />
+      <PointSymbolizer allow-overlap="true" ignore-placement="false" file="../../data/svg/point_sm.svg" />
     </Rule>
     <Rule>
       <Filter>[overlap] = "noexpr-false" and [placement] = "noexpr-false"</Filter>
-      <PointSymbolizer allow-overlap="false" ignore-placement="false" file="../../test-data/svg/point_sm.svg" />
+      <PointSymbolizer allow-overlap="false" ignore-placement="false" file="../../data/svg/point_sm.svg" />
     </Rule>
     <Rule>
       <Filter>[overlap] = "noexpr-false" and [placement] = "noexpr-true"</Filter>
-      <PointSymbolizer allow-overlap="false" ignore-placement="true" file="../../test-data/svg/point_sm.svg" />
+      <PointSymbolizer allow-overlap="false" ignore-placement="true" file="../../data/svg/point_sm.svg" />
     </Rule>
     <Rule>
-      <PointSymbolizer allow-overlap="[overlap]" ignore-placement="[placement]" file="../../test-data/svg/point_sm.svg" />
+      <PointSymbolizer allow-overlap="[overlap]" ignore-placement="[placement]" file="../../data/svg/point_sm.svg" />
     </Rule>
   </Style>
 

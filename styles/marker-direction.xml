@@ -29,7 +29,7 @@
             <MarkersSymbolizer
                 placement="[placement]"
                 spacing="30"
-                file="../../test-data/svg/octocat.svg"
+                file="../../data/svg/octocat.svg"
                 transform="scale(.05)"
                 ignore-placement="true"
                 />
@@ -39,7 +39,7 @@
             <MarkersSymbolizer
                 placement="[placement]"
                 spacing="30"
-                file="../../test-data/svg/octocat.svg"
+                file="../../data/svg/octocat.svg"
                 transform="scale(.05)"
                 ignore-placement="true"
                 direction="[direction]"

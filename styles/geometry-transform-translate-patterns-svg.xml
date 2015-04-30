@@ -6,12 +6,12 @@
     <Style name="polygon">
         <Rule>
             <PolygonPatternSymbolizer
-              file="../../test-data/svg/octocat.svg"
+              file="../../data/svg/octocat.svg"
               geometry-transform="translate(10,10)"
               transform="scale(.01)"
             />
             <PolygonPatternSymbolizer
-              file="../../test-data/svg/octocat.svg"
+              file="../../data/svg/octocat.svg"
               transform="scale(.02) rotate(45)"
               opacity=".2"
             />
@@ -20,13 +20,13 @@
     <Style name="line">
         <Rule>
             <LinePatternSymbolizer
-              file="../../test-data/svg/octocat.svg"
+              file="../../data/svg/octocat.svg"
               geometry-transform="translate(-3,-3)"
               transform="scale(.05)"
               offset="10"
             />
             <LinePatternSymbolizer
-              file="../../test-data/svg/octocat.svg"
+              file="../../data/svg/octocat.svg"
               geometry-transform="translate(3,3)"
               transform="scale(.05) rotate(180)"
               offset="-10"

@@ -29,14 +29,14 @@
     <StyleName>countries-outline</StyleName>
     <StyleName>countries</StyleName>
     <Datasource>
-       <Parameter name="file">../../test-data/shp/new_zealand/ne_50m_land.shp</Parameter>
+       <Parameter name="file">../../data/shp/new_zealand/ne_50m_land.shp</Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>
 
 <Style name="places" filter-mode="first">
   <Rule>
-    <ShieldSymbolizer avoid-edges="true" fill="#000000" face-name="DejaVu Sans Book" horizontal-alignment="right" dx="15" halo-fill="#ffffff" halo-radius="1" file="../../test-data/svg/ellipses.svg" size="12" minimum-distance="1" unlock-image="true" placement-type="simple" placements="E,NE,SE,W,NW,SW" ><![CDATA[[NAME]]]></ShieldSymbolizer>
+    <ShieldSymbolizer avoid-edges="true" fill="#000000" face-name="DejaVu Sans Book" horizontal-alignment="right" dx="15" halo-fill="#ffffff" halo-radius="1" file="../../data/svg/ellipses.svg" size="12" minimum-distance="1" unlock-image="true" placement-type="simple" placements="E,NE,SE,W,NW,SW" ><![CDATA[[NAME]]]></ShieldSymbolizer>
     <DebugSymbolizer />
   </Rule>
 </Style>
@@ -44,7 +44,7 @@
   srs="+init=epsg:4326">
     <StyleName>places</StyleName>
     <Datasource>
-       <Parameter name="file">../../test-data/shp/new_zealand/ne_50m_populated_places_simple.shp</Parameter>
+       <Parameter name="file">../../data/shp/new_zealand/ne_50m_populated_places_simple.shp</Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>

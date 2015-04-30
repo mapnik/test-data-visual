@@ -11,8 +11,8 @@
   srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
     <StyleName>heat</StyleName>
     <Datasource>
-       <!-- created with gdal_translate tests/visual_tests/test-data/heat.tif -a_notest-data 255 tests/visual_tests/test-data/heat_notest-data.tif -->
-       <Parameter name="file">../../test-data/raster/heat_nodata.tif</Parameter>
+       <!-- created with gdal_translate tests/visual_tests/data/heat.tif -a_nodata 255 tests/visual_tests/data/heat_nodata.tif -->
+       <Parameter name="file">../../data/raster/heat_nodata.tif</Parameter>
        <Parameter name="type">gdal</Parameter>
     </Datasource>
   </Layer>

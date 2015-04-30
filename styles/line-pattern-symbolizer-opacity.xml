@@ -1,6 +1,6 @@
 <Map
     background-color="green"
-    background-image="../../test-data/images/checker.jpg"
+    background-image="../../data/images/checker.jpg"
     background-image-opacity=".5"
     background-image-comp-op="soft-light"
     srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
@@ -11,13 +11,13 @@
         <StyleName>My Style</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
-            <Parameter name="file">../../test-data/csv/line-offset.csv</Parameter>
+            <Parameter name="file">../../data/csv/line-offset.csv</Parameter>
         </Datasource>
     </Layer>
 
     <Style name="My Style">
         <Rule>
-            <LinePatternSymbolizer file="../../test-data/raster/white-alpha.png" comp-op="difference"/>
+            <LinePatternSymbolizer file="../../data/raster/white-alpha.png" comp-op="difference"/>
         </Rule>
     </Style>
 

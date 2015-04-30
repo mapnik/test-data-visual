@@ -9,7 +9,7 @@
             <Datasource>
                 <Parameter name="type">csv</Parameter>
                 <Parameter name="extent">-0.05, -0.01, 0.95, 0.01</Parameter>
-                <Parameter name="file">../../test-data/csv/points.csv</Parameter>
+                <Parameter name="file">../../data/csv/points.csv</Parameter>
             </Datasource>
     </Layer>
     <Style name="My Style">
