@@ -88,7 +88,7 @@
                 <Layout dy="[double] * 5" dx="[double] * 2" rotate-displacement="[bool]" orientation="[double] * 1.25">
                     <Format>[text10]</Format>" "
                     <Format face-name="DejaVu Sans Book">[text11]</Format>" "
-                    <Format text-transform="[text_transform]">[text12]</Format>
+                    <Format text-transform="[text-transform]">[text12]</Format>
                 </Layout>
                 <Layout dy="[double] * 15" dx="[double] * -5" wrap-width="[double]" wrap-character="[wrap_char]">
                     <Format>[text13]</Format>" "
