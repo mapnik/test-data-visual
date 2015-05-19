@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map>
+<Map background-color="white" srs="+proj=latlong +datum=WGS84">
+    <Parameters>
+        <Parameter name="sizes">256, 256</Parameter>
+        <Parameter name="bbox">-1, -1, 1, 1</Parameter>
+    </Parameters>
+
+    <Layer name="layer" srs="+proj=latlong +datum=WGS84">
+        <StyleName>test</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                wkt
+                "POINT(0 0)"
+            </Parameter>
+        </Datasource>
+    </Layer>
+
+    <Style name="test">
+        <Rule>
+            <MarkersSymbolizer
+                ignore-placement="true"
+                placement="interior"
+                fill="green"
+                />
+            <TextSymbolizer
+                placement="interior"
+                face-name="DejaVu Sans Book"
+                size="12"
+                >
+                "Interior\nplacement"
+            </TextSymbolizer>
+        </Rule>
+    </Style>
+
+</Map>
