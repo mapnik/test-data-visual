@@ -20,7 +20,13 @@
     <Style name="lines">
         <Rule>
             <LineSymbolizer
-                stroke-width="1"
+                stroke-width="2"
+                stroke="red"
+                />
+            <MarkersSymbolizer
+                ignore-placement="true"
+                placement="interior"
+                fill="green"
                 />
             <TextSymbolizer
                 placement="interior"
@@ -31,5 +37,4 @@
             </TextSymbolizer>
         </Rule>
     </Style>
-
 </Map>

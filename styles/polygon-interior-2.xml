@@ -21,9 +21,18 @@
         <Rule>
             <LineSymbolizer
                 stroke-width="2"
-                stroke="black"
+                stroke="red"
                 />
-            <TextSymbolizer placement="interior" face-name="DejaVu Sans Book" size="12">
+            <MarkersSymbolizer
+                ignore-placement="true"
+                placement="interior"
+                fill="green"
+                />
+            <TextSymbolizer
+                placement="interior"
+                face-name="DejaVu Sans Book"
+                size="12"
+                >
                 "Interior\nplacement"
             </TextSymbolizer>
         </Rule>
