@@ -12,7 +12,7 @@
             <Parameter name="type">csv</Parameter>
             <Parameter name="inline">
                 wkt
-                "POLYGON((1 0, 0 -1, -1 0, 0 1, 0.8 0, 0 0.8, -0.8 0, 0 -0.8, 1 0))"
+                "LINESTRING(1 0, 0 -1, -1 0, 0 1, 0.8 0, 0 0.8, -0.8 0, 0 -0.8, 1 0)"
             </Parameter>
         </Datasource>
     </Layer>
