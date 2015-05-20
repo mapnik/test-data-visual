@@ -3,7 +3,7 @@
 <Map>
   <Parameters>
     <Parameter name="sizes">256,256</Parameter>
-    <Parameter name="status">off</Parameter>
+    
   </Parameters>
 
   <Style name="countries">
