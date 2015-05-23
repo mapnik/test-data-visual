@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="512px" height="512px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+<g id="layer" inkscape:groupmode="layer" inkscape:label="layer">
+<path d="M0.0 512.0 L51.2 512.0 L51.2 460.8 L102.4 460.8 L102.4 409.6 L153.6 409.6 L153.6 358.4 L204.8 358.4 L204.8 307.2 L256.0 307.2 L256.0 256.0 L307.2 256.0 L307.2 204.8 L358.4 204.8 L358.4 153.6 L409.6 153.6 L409.6 102.4 L460.8 102.4 L460.8 51.2 L512.0 51.2 L512.0 0.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#00008b" stroke-opacity="1.0" stroke-width="3.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M512.0 0.0 L512.0 51.2 L460.8 51.2 L460.8 102.4 L409.6 102.4 L409.6 153.6 L358.4 153.6 L358.4 204.8 L307.2 204.8 L307.2 256.0 L256.0 256.0 L256.0 307.2 L204.8 307.2 L204.8 358.4 L153.6 358.4 L153.6 409.6 L102.4 409.6 L102.4 460.8 L51.2 460.8 L51.2 512.0 L0.0 512.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#8b0000" stroke-opacity="1.0" stroke-width="3.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+</svg>

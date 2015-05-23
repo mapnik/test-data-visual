@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="200px" height="200px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+<rect x="0" y="0" width="200px" height="200px" fill="#eeeeee"/>
+<g id="polygon" inkscape:groupmode="layer" inkscape:label="polygon">
+<path d="M40.0 160.0 L160.0 160.0 L160.0 40.0 L40.0 40.0 L40.0 160.0 M80.0 120.0 L80.0 80.0 L120.0 80.0 L120.0 120.0 L80.0 120.0" stroke-dasharray="" fill="#eecc33" fill-opacity="1.0" stroke="none" stroke-opacity="1.0" stroke-width="0.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+<g id="line" inkscape:groupmode="layer" inkscape:label="line">
+<path d="M20.0 180.0 L180.0 20.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#eecc33" stroke-opacity="1.0" stroke-width="3.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+<g id="point" inkscape:groupmode="layer" inkscape:label="point">
+</g>
+<g id="frame" inkscape:groupmode="layer" inkscape:label="frame">
+</g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="600px" height="400px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+<g id="one" inkscape:groupmode="layer" inkscape:label="one">
+<path d="M68.0 36.0 L108.0 80.0 L142.0 104.0 L174.0 136.0 L176.0 156.0 L182.0 208.0 L200.0 242.0 L230.0 318.0 L270.0 348.0 L308.0 368.0 L368.0 394.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="1.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+<g id="two" inkscape:groupmode="layer" inkscape:label="two">
+<path d="M190.0 24.0 L202.0 100.0 L184.0 126.0 L166.0 158.0 L168.0 210.0 L218.0 352.0 L300.0 364.0 L340.0 364.0 L390.0 364.0 L480.0 338.0 L572.0 270.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="1.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M286.0 22.0 L40.0 102.0 L310.0 150.0 L40.0 202.0 L294.0 226.0 L110.0 294.0 L364.0 294.0 L262.0 400.0 L462.0 276.0 L526.0 394.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="1.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M138.0 0.0 L316.0 396.0 L28.0 46.0 L438.0 396.0 L510.0 258.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="1.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+</svg>

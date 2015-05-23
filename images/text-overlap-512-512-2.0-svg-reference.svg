@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="512px" height="512px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+<rect x="0" y="0" width="512px" height="512px" fill="#ff6464"/>
+<g id="road" inkscape:groupmode="layer" inkscape:label="road">
+<path d="M0.0 0.0 L0.0 384.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M0.0 85.3333 L256.0 85.3333" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M256.0 85.3333 L256.0 256.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M85.3333 42.6667 L85.3333 298.6667" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M256.0 256.0 L0.0 256.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M170.6667 42.6667 L170.6667 298.6667" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M298.6667 85.3333 L469.3333 85.3333" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M384.0 0.0 L384.0 170.6667" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M384.0 341.3333 L512.0 341.3333 L512.0 426.6667 L426.6667 426.6667 L426.6667 298.6667" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M128.0 341.3333 L128.0 512.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M298.6667 341.3333 L298.6667 512.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M0.0 426.6667 L341.3333 426.6667" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M42.6667 341.3333 L42.6667 512.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M213.3333 341.3333 L213.3333 512.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M332.8 213.3333 L332.8 298.6667" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M298.6667 213.3333 L298.6667 256.0 L384.0 256.0 L384.0 298.6667" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M477.8667 213.3333 L477.8667 298.6667" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M426.6667 213.3333 L426.6667 256.0 L512.0 256.0 L512.0 298.6667" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M477.8667 106.6667 L477.8667 192.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M426.6667 149.3333 L512.0 149.3333" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="750px" height="250px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+<rect x="0" y="0" width="750px" height="250px" fill="#ffffff"/>
+<g id="layer" inkscape:groupmode="layer" inkscape:label="layer">
+<path cx="281.25" cy="137.5" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffa500" stroke-opacity="1.0" stroke-width="8.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path cx="468.75" cy="137.5" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffa500" stroke-opacity="1.0" stroke-width="8.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path cx="281.25" cy="237.5" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffa500" stroke-opacity="1.0" stroke-width="8.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path cx="468.75" cy="237.5" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffa500" stroke-opacity="1.0" stroke-width="8.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M0.0 62.5 L750.0 62.5" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffa500" stroke-opacity="1.0" stroke-width="8.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M0.0 93.75 L750.0 93.75" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffa500" stroke-opacity="1.0" stroke-width="8.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M0.0 31.25 L750.0 31.25" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffa500" stroke-opacity="1.0" stroke-width="8.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M0.0 156.25 L625.0 156.25 L625.0 187.5 L125.0 187.5 L125.0 218.75 L750.0 218.75" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ffa500" stroke-opacity="1.0" stroke-width="8.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+</svg>

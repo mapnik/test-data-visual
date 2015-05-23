@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="600px" height="400px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+<g id="layer" inkscape:groupmode="layer" inkscape:label="layer">
+<path d="M50.0 275.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="1.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M50.0 225.0 L550.0 225.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="1.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M50.0 175.0 L150.0 125.0 L250.0 175.0 L350.0 125.0 L450.0 175.0 L550.0 125.0" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#000000" stroke-opacity="1.0" stroke-width="1.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+</svg>
