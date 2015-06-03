@@ -24,16 +24,6 @@
             </Parameter>
         </Datasource>
     </Layer>
-    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
-        <StyleName>gamma</StyleName>
-        <Datasource>
-            <Parameter name="type">csv</Parameter>
-            <Parameter name="inline">
-            wkt
-            "LINESTRING(0 4, 10 6)"
-            </Parameter>
-        </Datasource>
-    </Layer>
 
     <Style name="alpha">
         <Rule>
