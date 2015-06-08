@@ -3,16 +3,17 @@
 <Map background-color="white" srs="+proj=latlong +datum=WGS84">
     <Parameters>
         <Parameter name="sizes">256, 256</Parameter>
-        <Parameter name="bbox">-1, -1, 1, 1</Parameter>
     </Parameters>
 
     <Layer name="layer" srs="+proj=latlong +datum=WGS84">
         <StyleName>test</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
+            <Parameter name="extent">-20, -20, 20, 20</Parameter>
             <Parameter name="inline">
                 wkt
-                "POINT(0 0)"
+                "POINT(10 10)"
+                "MULTIPOINT(5 5, 0 0, -10 10)"
             </Parameter>
         </Datasource>
     </Layer>
@@ -23,11 +24,19 @@
                 ignore-placement="true"
                 placement="interior"
                 fill="green"
+                opacity=".3"
+                allow-overlap="true"
+                />
+            <PointSymbolizer
+                ignore-placement="true"
+                placement="interior"
+                allow-overlap="true"
                 />
             <TextSymbolizer
                 placement="interior"
                 face-name="DejaVu Sans Book"
                 size="12"
+                allow-overlap="true"
                 >
                 "Interior\nplacement"
             </TextSymbolizer>
