@@ -23,13 +23,13 @@
               file="../../data/svg/octocat.svg"
               geometry-transform="translate(-3,-3)"
               transform="scale(.05)"
-              offset="10"
+              offset="-10"
             />
             <LinePatternSymbolizer
               file="../../data/svg/octocat.svg"
               geometry-transform="translate(3,3)"
               transform="scale(.05) rotate(180)"
-              offset="-10"
+              offset="10"
             />
         </Rule>
     </Style>

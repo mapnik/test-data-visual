@@ -20,7 +20,7 @@
         </Rule>
         <Rule>
             <Filter>[id] = 'offset'</Filter>
-            <LineSymbolizer stroke-width='5' stroke='#ff0000' offset="[value]" />
+            <LineSymbolizer stroke-width='5' stroke='#ff0000' offset="-1.0 * [value]" />
         </Rule>
         <Rule>
             <Filter>[id] = 'stroke-dasharray'</Filter>

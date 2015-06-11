@@ -20,12 +20,12 @@
         <Rule>
             <Filter>[ref]=1 or [ref]=3</Filter>
             <LinePatternSymbolizer file="../../data/pngsuite/linepattern.png"/>
-            <LinePatternSymbolizer offset="-5" file="../../data/pngsuite/linepattern1.png"/>
+            <LinePatternSymbolizer offset="5" file="../../data/pngsuite/linepattern1.png"/>
         </Rule>
         <Rule>
             <Filter>[ref]=2 or [ref]=4</Filter>
             <LinePatternSymbolizer file="../../data/pngsuite/linepattern.png"/>
-            <LinePatternSymbolizer offset="5" file="../../data/pngsuite/linepattern1.png"/>
+            <LinePatternSymbolizer offset="-5" file="../../data/pngsuite/linepattern1.png"/>
         </Rule>
     </Style>
 

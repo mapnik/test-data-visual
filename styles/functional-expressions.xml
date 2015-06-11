@@ -9,11 +9,11 @@
             <LineSymbolizer
                 stroke="[color]"
                 stroke-width="[width]"
-                offset="abs([offset]*2.0)"/>
+                offset="-1.0*abs([offset]*2.0)"/>
             <LineSymbolizer
                 stroke="[color]"
                 stroke-width="[width]"
-                offset="-[offset]*2.0"
+                offset="[offset]*2.0"
                 geometry-transform="rotate(360-(tan(-180)*10))"/>
         </Rule>
         <Rule>

@@ -8,7 +8,7 @@
     <Style name="polygon">
         <Rule>
             <PolygonSymbolizer fill="#800000" />
-            <LineSymbolizer stroke="#ff0000" stroke-width="2" offset="4" />
+            <LineSymbolizer stroke="#ff0000" stroke-width="2" offset="-5" />
         </Rule>
     </Style>
 
@@ -48,14 +48,10 @@ Polygon((-75.0 -75.0, -75.0 75.0, 35.0 75.0, 35.0 -75.0, -75.0 -75.0))|bounds
 
 "features": [
 { "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":
-    [ [ [ 30, -20 ], [ -70, -20 ], [ -70, -70 ], [ 30, -70 ], [ 30, -20 ] ],
-      [ [ -60, -30 ], [ -30, -30 ], [ -30, -60 ], [ -60, -60 ], [ -60, -30 ] ],
-      [ [ -10, -30 ], [ -10, -60 ], [ 20, -60 ], [ 20, -30 ], [ -10, -30 ] ]
+    [ [ [ -35, -70 ], [ -45, -70 ], [ -40, 70 ], [ -35, -70 ] ]
       ] } },
 { "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":
-    [ [ [ -70, 70 ], [ 30, 70 ], [ 30, 20 ], [ -70, 20 ], [ -70, 70 ] ],
-      [ [ -60, 60 ], [ -30, 60 ], [ -30, 30 ], [ -60, 30 ], [ -60, 60 ] ],
-      [ [ 20, 30 ], [ 20, 60 ], [ -10, 60 ], [ -10, 30 ], [ 20, 30 ] ]
+    [ [ [ 30, -70 ], [ 10, -70 ], [ 20, 70 ], [ 30, -70 ] ]
       ] } }
 ]
 }</Parameter>
