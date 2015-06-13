@@ -3,5 +3,6 @@
 <svg width="500px" height="100px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
 <rect x="0" y="0" width="500px" height="100px" fill="#ffffff"/>
 <g id="layer" inkscape:groupmode="layer" inkscape:label="layer">
+<path d="M220.0 80.0 L280.0 80.0 L280.0 20.0 L220.0 20.0 L220.0 80.0" stroke-dasharray="" fill="#808080" fill-opacity="1.0" stroke="none" stroke-opacity="1.0" stroke-width="0.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
 </g>
 </svg>
