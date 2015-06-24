@@ -5,21 +5,74 @@
         <Parameter name="sizes">256, 256</Parameter>
     </Parameters>
 
-    <Layer name="layer" srs="+proj=latlong +datum=WGS84">
-        <StyleName>test</StyleName>
-        <Datasource>
-            <Parameter name="type">csv</Parameter>
-            <Parameter name="extent">-20, -20, 20, 20</Parameter>
-            <Parameter name="inline">
-                wkt
-                "POINT(10 10)"
-                "MULTIPOINT(5 5, 0 0, -10 10)"
-            </Parameter>
-        </Datasource>
-    </Layer>
-
     <Style name="test">
         <Rule>
+            <Filter>[mapnik::geometry_type] = linestring</Filter>
+            <LineSymbolizer />
+            <TextSymbolizer
+                face-name="DejaVu Sans Book"
+                placement="interior"
+                size="10"
+                halo-radius="1"
+                fill="purple"
+                allow-overlap="true"
+                minimum-path-length="200"
+                >
+                "text-on-line > 200"
+            </TextSymbolizer>
+            <TextSymbolizer
+                face-name="DejaVu Sans Book"
+                placement="interior"
+                size="10"
+                halo-radius="1"
+                fill="darkorange"
+                allow-overlap="true"
+                dy="10"
+                >
+                "text-on-line"
+            </TextSymbolizer>
+        </Rule>
+        <Rule>
+            <Filter>[mapnik::geometry_type] = polygon</Filter>
+            <PolygonSymbolizer />
+            <TextSymbolizer
+                face-name="DejaVu Sans Book"
+                placement="point"
+                size="10"
+                halo-radius="1"
+                fill="red"
+                allow-overlap="true"
+                largest-bbox-only="true"
+                dy="-10"
+                >
+                "text-on-poly-largest-point"
+            </TextSymbolizer>
+            <TextSymbolizer
+                face-name="DejaVu Sans Book"
+                placement="point"
+                size="10"
+                halo-radius="1"
+                fill="blue"
+                allow-overlap="true"
+                largest-bbox-only="false"
+                >
+                "text-on-poly-all-point"
+            </TextSymbolizer>
+            <TextSymbolizer
+                face-name="DejaVu Sans Book"
+                placement="interior"
+                size="10"
+                halo-radius="1"
+                fill="green"
+                allow-overlap="true"
+                largest-bbox-only="false"
+                dy="10"
+                >
+                "text-on-poly-all-interior"
+            </TextSymbolizer>
+        </Rule>
+        <Rule>
+            <Filter>[mapnik::geometry_type] = point</Filter>
             <MarkersSymbolizer
                 ignore-placement="true"
                 placement="interior"
@@ -32,15 +85,191 @@
                 placement="interior"
                 allow-overlap="true"
                 />
-            <TextSymbolizer
-                placement="interior"
-                face-name="DejaVu Sans Book"
-                size="12"
-                allow-overlap="true"
-                >
-                "Interior\nplacement"
-            </TextSymbolizer>
         </Rule>
     </Style>
+
+    <Layer name="layer" srs="+proj=latlong +datum=WGS84">
+        <StyleName>test</StyleName>
+        <Datasource>
+            <Parameter name="type">geojson</Parameter>
+            <Parameter name="inline">
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                171.9140625,
+                27.839076094777816
+              ],
+              [
+                171.9140625,
+                45.706179285330855
+              ],
+              [
+                178.2421875,
+                45.706179285330855
+              ],
+              [
+                178.2421875,
+                27.839076094777816
+              ],
+              [
+                171.9140625,
+                27.839076094777816
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                209.00390625,
+                28.14950321154457
+              ],
+              [
+                209.00390625,
+                35.460669951495305
+              ],
+              [
+                214.45312499999997,
+                35.460669951495305
+              ],
+              [
+                214.45312499999997,
+                28.14950321154457
+              ],
+              [
+                209.00390625,
+                28.14950321154457
+              ]
+            ]
+         ],
+         [
+            [
+              [
+                208.65234374999997,
+                38.8225909761771
+              ],
+              [
+                208.65234374999997,
+                46.195042108660154
+              ],
+              [
+                214.45312499999997,
+                46.195042108660154
+              ],
+              [
+                214.45312499999997,
+                38.8225909761771
+              ],
+              [
+                208.65234374999997,
+                38.8225909761771
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            181.93359375,
+            32.24997445586331
+          ],
+          [
+            206.3671875,
+            32.54681317351517
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              197.05078125,
+              44.84029065139799
+            ],
+            [
+              205.48828124999997,
+              43.83452678223682
+            ]
+          ],
+          [
+            [
+              182.98828124999997,
+              44.08758502824518
+            ],
+            [
+              192.12890625,
+              44.465151013519616
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            174.90234375,
+            44.96479793033104
+          ],
+          [
+            211.28906249999997,
+            45.336701909968106
+          ],
+          [
+            211.81640625,
+            34.59704151614417
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          217.96875,
+          25.720735134412106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.5078125,
+          47.69497434186282
+        ]
+      }
+    }
+  ]
+}
+            </Parameter>
+        </Datasource>
+    </Layer>
 
 </Map>
