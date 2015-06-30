@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" buffer-size="128" background-color="#ffffff">
+
+    <Parameters>
+        <Parameter name="sizes">1024, 256</Parameter>
+        <Parameter name="tiles">4, 1</Parameter>
+    </Parameters>
+
+    <Style name="linelabel" filter-mode="first">
+        <Rule>
+            <LineSymbolizer stroke="red"/>
+            <TextSymbolizer size="12" face-name="DejaVu Sans Book" fill="black" placement="line" clip="false" avoid-edges="false">[label]</TextSymbolizer>
+        </Rule>
+    </Style>
+
+    <Layer name="line-labels" srs="+proj=longlat +datum=WGS84 +no_defs" clear-label-cache="true">
+        <StyleName>linelabel</StyleName>
+        <Datasource>
+            <Parameter name="type">ogr</Parameter>
+            <Parameter name="inline">
+                {
+                    "type": "FeatureCollection",
+                        "crs": {
+                            "type": "name",
+                            "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+                        },
+                        "features": [{
+                            "type": "Feature",
+                            "properties": {
+                                "label": "Pitchstone Plateau"
+                            },
+                            "geometry": {
+                                "type": "LineString",
+                                "coordinates": [ [ -110.841919936411, 44.253828364476497 ], [ -110.794287786211, 44.253270898094897 ], [ -110.750702812171, 44.258287905289599 ], [ -110.702448019485, 44.277348628888397 ], [ -110.689995169759, 44.284815180282301 ] ]
+                            }
+                        }]
+                }
+            </Parameter>
+            <Parameter name="layer">OGRGeoJSON</Parameter>
+        </Datasource>
+    </Layer>
+
+</Map>
