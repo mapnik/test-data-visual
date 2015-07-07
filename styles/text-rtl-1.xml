@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map>
+<Map background-color="white" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Parameters>
+        <Parameter name="sizes">512, 128</Parameter>
+    </Parameters>
+
+    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+        <StyleName>markers</StyleName>
+        <StyleName>text</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="extent">0.1808742273600000,51.5102643362700012,0.1836377776400000,51.5104643362700012</Parameter>
+            <Parameter name="inline">
+                lat, long, text
+                51.51036433627, 0.18107422736, "ملתיAa"
+                51.51036433627, 0.18166511493, "Aaملתי"
+                51.51036433627, 0.1822560025, "עיריית גבעתיים"
+                51.51036433627, 0.18284689007, "City hall"
+                51.51036433627, 0.18343777764, "موزه ملک"
+            </Parameter>
+        </Datasource>
+    </Layer>
+
+    <Style name="markers">
+        <Rule>
+            <MarkersSymbolizer fill="#ffc0cb" stroke="#ffc0cb" ignore-placement="true" />
+        </Rule>
+    </Style>
+    <Style name="text">
+        <Rule>
+            <TextSymbolizer size="10" face-name="DejaVu Sans Book" >[text]</TextSymbolizer>
+        </Rule>
+    </Style>
+
+
+</Map>
