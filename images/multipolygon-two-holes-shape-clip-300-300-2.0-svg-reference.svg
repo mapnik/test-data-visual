@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="300px" height="300px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+<rect x="0" y="0" width="300px" height="300px" fill="#000000"/>
+<g id="bug" inkscape:groupmode="layer" inkscape:label="bug">
+<path d="M138.587 15.9121 L29.3478 97.0325 L0.0 214.2725 L21.1957 295.395 L146.7391 295.395 L269.0217 232.8434 L300.0 130.9367 L295.1087 47.0292 L223.3696 4.605 L138.587 15.9121 M167.9348 54.4026 L238.0435 91.3895 L238.0435 145.3083 L167.9348 221.9579 L109.2391 158.8681 L167.9348 54.4026 M171.1957 102.8005 L159.7826 147.9832 L189.1304 156.1194 L202.1739 113.4977 L171.1957 102.8005" stroke-dasharray="" fill="#800000" fill-opacity="1.0" stroke="#ff8c00" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+</svg>
