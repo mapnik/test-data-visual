@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map>
+<Map background-color="white">
+
+    <Parameters>
+        <Parameter name="sizes">512, 512</Parameter>
+        <Parameter name="bbox">-1, -1, 1, 1</Parameter>
+    </Parameters>
+
+    <Layer name="layer">
+        <StyleName>1</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                wkt
+                "LINESTRING(0 0, 1.0 0.0)"
+                "LINESTRING(0 0, 0.9238795325112867 0.3826834323650898)"
+                "LINESTRING(0 0, 0.7071067811865476 0.7071067811865475)"
+                "LINESTRING(0 0, 0.38268343236508984 0.9238795325112867)"
+                "LINESTRING(0 0, 0 1.0)"
+                "LINESTRING(0 0, -0.3826834323650897 0.9238795325112867)"
+                "LINESTRING(0 0, -0.7071067811865475 0.7071067811865476)"
+                "LINESTRING(0 0, -0.9238795325112867 0.3826834323650899)"
+                "LINESTRING(0 0, -1.0 0)"
+                "LINESTRING(0 0, -0.9238795325112868 -0.38268343236508967)"
+                "LINESTRING(0 0, -0.7071067811865477 -0.7071067811865475)"
+                "LINESTRING(0 0, -0.38268343236509034 -0.9238795325112865)"
+                "LINESTRING(0 0, 0 -1.0)"
+                "LINESTRING(0 0, 0.38268343236508834 -0.9238795325112873)"
+                "LINESTRING(0 0, 0.7071067811865461 -0.7071067811865489)"
+                "LINESTRING(0 0, 0.9238795325112859 -0.38268343236509206)"
+                "LINESTRING(0 0, 1.0 0)"
+            </Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer name="layer">
+        <StyleName>2</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                wkt
+                "LINESTRING(0 0, 3.064954001260095e-2 6.096572563004008e-3)"
+                "LINESTRING(0 0, 7.795027615336361e-2 5.2084709345587704e-2)"
+                "LINESTRING(0 0, 8.680784890931285e-2 0.1299171269222727)"
+                "LINESTRING(0 0, 4.267600794102807e-2 0.21454678008820666)"
+                "LINESTRING(0 0, -5.4869153067036054e-2 0.27584586011340856)"
+                "LINESTRING(0 0, -0.19097726760048814 0.285817679229)"
+                "LINESTRING(0 0, -0.33778452999790876 0.2257004071642136)"
+                "LINESTRING(0 0, -0.459743100189014 9.144858844506065e-2)"
+                "LINESTRING(0 0, -0.5210421802142161 -0.10364173357106722)"
+                "LINESTRING(0 0, -0.4936850823046367 -0.32986982585538754)"
+                "LINESTRING(0 0, -0.3645929654191151 -0.545651933073544)"
+                "LINESTRING(0 0, -0.14022116894909425 -0.704939420289821)"
+                "LINESTRING(0 0, 0.1524143140750974 -0.7662385003150237)"
+                "LINESTRING(0 0, 0.4687623841102863 -0.7015524853802739)"
+                "LINESTRING(0 0, 0.7535193361491789 -0.5034855236740176)"
+                "LINESTRING(0 0, 0.9501357403906279 -0.18899374945312877)"
+                "LINESTRING(0 0, 1.0114348204158317 0.20118689457912667)"
+            </Parameter>
+        </Datasource>
+    </Layer>
+
+    <Style name="1">
+        <Rule>
+            <LineSymbolizer
+                stroke-width="2"
+                stroke="red"
+                />
+            <TextSymbolizer
+                size="12"
+                face-name="DejaVu Sans Book"
+                placement="line"
+                allow-overlap="true"
+                minimum-path-length="100"
+                >
+                "minimum-path-length"
+            </TextSymbolizer>
+        </Rule>
+    </Style>
+
+    <Style name="2">
+        <Rule>
+            <LineSymbolizer
+                stroke-width="2"
+                stroke="blue"
+                />
+            <TextSymbolizer
+                size="12"
+                face-name="DejaVu Sans Book"
+                placement="line"
+                allow-overlap="true"
+                minimum-path-length="200"
+                >
+                "minimum-path-length"
+            </TextSymbolizer>
+        </Rule>
+    </Style>
+
+</Map>
+
+
