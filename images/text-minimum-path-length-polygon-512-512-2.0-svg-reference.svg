@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="512px" height="512px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+<rect x="0" y="0" width="512px" height="512px" fill="#ffffff"/>
+<g id="layer" inkscape:groupmode="layer" inkscape:label="layer">
+<path d="M46.5455 465.4545 L93.0909 465.4545 L93.0909 418.9091 L46.5455 418.9091 L46.5455 465.4545" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ff0000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M139.6364 465.4545 L186.1818 465.4545 L186.1818 325.8182 L139.6364 325.8182 L139.6364 465.4545" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ff0000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M232.7273 465.4545 L279.2727 465.4545 L279.2727 232.7273 L232.7273 232.7273 L232.7273 465.4545" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ff0000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M325.8182 465.4545 L372.3636 465.4545 L372.3636 139.6364 L325.8182 139.6364 L325.8182 465.4545" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ff0000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M418.9091 465.4545 L465.4545 465.4545 L465.4545 46.5455 L418.9091 46.5455 L418.9091 465.4545" stroke-dasharray="" fill="none" fill-opacity="1.0" stroke="#ff0000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+</svg>
