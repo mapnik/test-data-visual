@@ -11,7 +11,7 @@
             <LineSymbolizer />
             <TextSymbolizer
                 face-name="DejaVu Sans Book"
-                placement="interior"
+                placement="line"
                 size="10"
                 halo-radius="1"
                 fill="purple"
