@@ -1,0 +1,33 @@
+<Map background-color="white">
+    <Parameters>
+        <Parameter name="sizes">256, 256</Parameter>
+        <Parameter name="bbox">-1, -1, 1, 1</Parameter>
+    </Parameters>
+    <Style name="1">
+        <Rule>
+            <TextSymbolizer
+                placement="point"
+                face-name="DejaVu Sans Book"
+                >
+                [text]
+            </TextSymbolizer>
+            <TextSymbolizer
+                placement="line"
+                label-position-tolerance="1"
+                face-name="DejaVu Sans Book"
+                >
+                "text"
+            </TextSymbolizer>
+            <DebugSymbolizer />
+        </Rule>
+    </Style>
+    <Layer name="1">
+        <StyleName>1</StyleName>
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="dbname">template_postgis</Parameter>
+            <Parameter name="geometry_field">geom</Parameter>
+            <Parameter name="table">(SELECT null as text, ST_GeomFromText('LINESTRING(-1 0, 1 0)') as geom) as q</Parameter>
+        </Datasource>
+    </Layer>
+</Map>
