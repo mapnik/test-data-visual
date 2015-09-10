@@ -1,0 +1,23 @@
+<Map background-color="white">
+    <Style name="shapes">
+        <Rule>
+            <LineSymbolizer stroke-width="5" stroke="red" />
+            <TextSymbolizer face-name="DejaVu Sans Book" size="20" placement="line">[name]</TextSymbolizer>
+            <MarkersSymbolizer file="shape://[name]" placement="line" spacing="50"/>
+        </Rule>
+    </Style>
+
+    <Layer name="test">
+        <StyleName>shapes</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                name,wkt
+                ellipse,   "LINESTRING(0 10,  10 20,  20 10,  30 20,  40 20,  40 15,  30 15)"
+                arrow,     "LINESTRING(0 20,  10 30,  20 20,  30 30,  40 30,  40 25,  30 25)"
+                arrowhead, "LINESTRING(0 30,  10 40,  20 30,  30 40,  40 40,  40 35,  30 35)"
+                triangle,  "LINESTRING(0 40,  10 50,  20 40,  30 50,  40 50,  40 45,  30 45)"
+            </Parameter>
+        </Datasource>
+    </Layer>
+</Map>
