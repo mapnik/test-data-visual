@@ -16,7 +16,7 @@
        <Parameter name="extent">-180,-47.2754736667,180,-34.0036943</Parameter>
        <Parameter name="type">csv</Parameter>
        <Parameter name="inline">
-WKT,id,
+WKT,
 "POINT (-176.662157383264883 -43.096109795145765)",
 "POINT (-176.854671182715663 -42.903595931039007)",
 "POINT (-177.252533072573982 -42.646910782400411)",
