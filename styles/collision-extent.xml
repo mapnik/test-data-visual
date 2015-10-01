@@ -13,8 +13,8 @@
             <Parameter name="type">csv</Parameter>
             <Parameter name="inline">
                 wkt
-                "LINESTRING(-10000 0, 10000 0)
-                "LINESTRING(0 -10000, 0 10000)
+                "LINESTRING(-10000 0, 10000 0)"
+                "LINESTRING(0 -10000, 0 10000)"
             </Parameter>
         </Datasource>
     </Layer>
