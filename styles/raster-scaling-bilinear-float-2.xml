@@ -1,0 +1,25 @@
+<Map>
+    <Parameters>
+        <Parameter name="sizes">500,438</Parameter>
+    </Parameters>
+
+    <Style name="raster">
+        <Rule>
+            <RasterSymbolizer scaling="bilinear">
+                <RasterColorizer default-color="red">
+                    <stop value="320" color="white"/>
+                    <stop value="380" color="black"/>
+                </RasterColorizer>
+            </RasterSymbolizer>
+        </Rule>
+    </Style>
+
+    <Layer name="dataraster">
+        <StyleName>raster</StyleName>
+        <Datasource>
+            <Parameter name="file">../../data/raster/hypsometry.tif</Parameter>
+            <Parameter name="type">gdal</Parameter>
+            <Parameter name="band">1</Parameter>
+        </Datasource>
+    </Layer>
+</Map>
