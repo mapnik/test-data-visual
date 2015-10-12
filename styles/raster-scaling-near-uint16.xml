@@ -1,0 +1,25 @@
+<Map>
+    <Parameters>
+        <Parameter name="sizes">512,512</Parameter>
+    </Parameters>
+
+    <Style name="raster">
+        <Rule>
+            <RasterSymbolizer>
+                <RasterColorizer default-color="red">
+                    <stop value="30000" color="white"/>
+                    <stop value="50000" color="black"/>
+                </RasterColorizer>
+            </RasterSymbolizer>
+        </Rule>
+    </Style>
+
+    <Layer name="dataraster">
+        <StyleName>raster</StyleName>
+        <Datasource>
+            <Parameter name="file">../../data/tiff/ndvi_256x256_gray16_tiled.tif</Parameter>
+            <Parameter name="type">gdal</Parameter>
+            <Parameter name="band">1</Parameter>
+        </Datasource>
+    </Layer>
+</Map>
