@@ -1,0 +1,28 @@
+<Map font-directory="../fonts/KhmerOS/" background-color="#ffffff">
+    <Parameters>
+        <Parameter name="sizes">256,256</Parameter>
+        <Parameter name="bbox">0,0,5,5</Parameter>
+    </Parameters>
+    <FontSet name="fontset-1">
+        <Font face-name="DejaVu Sans Book"/>
+        <Font face-name="Khmer OS Regular"/>
+    </FontSet>
+    <Style name="text">
+        <Rule>
+            <TextSymbolizer size="20" fontset-name="fontset-1" clip="false">[name]</TextSymbolizer>
+        </Rule>
+    </Style>
+    <Layer name="text" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+        <StyleName>text</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                x,y,name
+                3,4,ផ្លូវ ១២៣-
+                3,3,-ផ្លូវ ១២៣
+                3,2,ផ្លូវ ១២៣ Abc
+                3,1,ផ្លូវ ១២៣ 汉语 
+            </Parameter>
+        </Datasource>
+    </Layer>
+</Map>
