@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map>
+<Map background-color="white" srs="+proj=latlong +datum=WGS84">
+    <Parameters>
+        <Parameter name="sizes">600, 600</Parameter>
+    </Parameters>
+
+    <Layer name="layer" srs="+proj=latlong +datum=WGS84">
+        <StyleName>lines</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                wkt
+"POLYGON((32.6953125 40.329795743702064,32.4755859375 39.18117526158749,33.20068359375 40.027614437486655,32.71728515625 38.479394673276445,33.3984375 39.24927084622338,33.5302734375 38.685509760012,34.07958984375 39.14710270770074,35.22216796875 39.027718840211605,34.27734375 38.805470223177466,35.35400390625 38.479394673276445,36.474609375 38.97649248553942,35.5078125 39.65645604812829,36.5625 39.740986355883564,36.7822265625 40.27952566881291,35.79345703125 40.195659093364654,35.48583984375 39.85915479295669,34.8046875 40.54720023441049,34.38720703125 40.329795743702064,33.64013671875 40.68063802521456,33.20068359375 40.463666324587685,32.1240234375 40.979898069620155,32.6953125 40.329795743702064))"
+            </Parameter>
+        </Datasource>
+    </Layer>
+
+    <Style name="lines">
+        <Rule>
+            <LineSymbolizer stroke-width="1" stroke="black" />
+            <LineSymbolizer stroke-width="1" stroke="red" offset="-10" />
+            <LineSymbolizer stroke-width="1" stroke="green" offset="10" />
+        </Rule>
+    </Style>
+
+</Map>
+
