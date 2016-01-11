@@ -1,0 +1,24 @@
+<Map
+    background-color="#000"
+    srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Parameters>
+        <Parameter name="sizes">300,300</Parameter>
+    </Parameters>
+
+    <Style name="polygon">
+        <Rule>
+            <PolygonSymbolizer clip="true" smooth=".5" fill="#800000" />
+            <LineSymbolizer clip="false" stroke="yellow" stroke-linejoin="miter-revert" stroke-width="2" offset="-15" />
+            <LineSymbolizer clip="true" smooth=".5" stroke="teal" stroke-linejoin="miter" stroke-width="2" offset="-5" />
+            <LineSymbolizer clip="true" smooth=".5" stroke="darkorange" stroke-linejoin="bevel" stroke-width="2" offset="5" />
+        </Rule>
+    </Style>
+
+    <Layer name="bug" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+        <StyleName>polygon</StyleName>
+        <Datasource>
+            <Parameter name="type">geojson</Parameter>
+            <Parameter name="file">../../data/json/poly-multihole.json</Parameter>
+        </Datasource>
+    </Layer>
+</Map>

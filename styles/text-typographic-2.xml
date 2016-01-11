@@ -1,0 +1,30 @@
+<Map font-directory="../fonts/Noto" background-color="#ffffff">
+    <Parameters>
+        <Parameter name="sizes">256,256</Parameter>
+        <Parameter name="bbox">0,0,5,5</Parameter>
+    </Parameters>
+    <FontSet name="fontset-1">
+        <Font face-name="Noto Sans Hebrew Regular"/>
+        <Font face-name="Noto Sans SC Regular"/>
+        <Font face-name="Noto Sans TC Regular"/>
+        <Font face-name="Noto Sans Regular"/>
+    </FontSet>
+    <Style name="text">
+        <Rule>
+            <TextSymbolizer size="20" fontset-name="fontset-1" clip="false">[name]</TextSymbolizer>
+        </Rule>
+    </Style>
+    <Layer name="text" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+        <StyleName>text</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                x,y,name
+                1,4,א-
+                1,3,א
+                1,2,א Abc
+                1,1,א 汉语
+            </Parameter>
+        </Datasource>
+    </Layer>
+</Map>

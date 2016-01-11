@@ -25,7 +25,7 @@
     <Style name="lines">
         <Rule>
             <LineSymbolizer stroke-width="12" stroke="green"/>
-            <LineSymbolizer stroke-width="1" stroke="blue" offset="5"/>
+            <LineSymbolizer stroke-width="1" stroke="blue" offset="-5"/>
         </Rule>
     </Style>
 

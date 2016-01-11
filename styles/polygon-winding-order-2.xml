@@ -8,7 +8,7 @@
     <Style name="polygon">
         <Rule>
             <PolygonSymbolizer fill="#800000" />
-            <LineSymbolizer stroke="#ff0000" stroke-width="2" offset="-4" />
+            <LineSymbolizer stroke="#ff0000" stroke-width="2" offset="4" />
         </Rule>
     </Style>
 

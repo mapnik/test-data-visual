@@ -4,6 +4,10 @@
 
     <Style name="dots">
         <Rule>
+            <Filter>[mapnik::geometry_type] = polygon</Filter>
+            <PolygonSymbolizer gamma=".5" />
+        </Rule>
+        <Rule>
             <DotSymbolizer height="[height]" width="[width]" fill="[fill]" opacity="[opacity]"/>
         </Rule>
     </Style>

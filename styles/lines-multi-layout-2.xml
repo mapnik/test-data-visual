@@ -28,8 +28,8 @@ wkt,nr
     <Style name="text">
         <Rule>
             <TextSymbolizer face-name="DejaVu Sans Book" size="14" placement="line" spacing="40" upright="left" max-char-angle-delta="45">
-                <Layout dy="-5" horizontal-alignment="left">"Align Left"</Layout>
-                <Layout dy="5" horizontal-alignment="right">"Align Right"</Layout>
+                <Layout dy="5" horizontal-alignment="left">"Align Left"</Layout>
+                <Layout dy="-5" horizontal-alignment="right">"Align Right"</Layout>
             </TextSymbolizer>
         </Rule>
     </Style>

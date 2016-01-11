@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map>
+<Map background-color="white">
+
+    <Parameters>
+        <Parameter name="sizes">512, 512</Parameter>
+        <Parameter name="bbox">-1, -1, 1, 1</Parameter>
+    </Parameters>
+
+    <Layer name="layer">
+        <StyleName>My Style</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                wkt
+                "LINESTRING(-10000 0, 10000 0)"
+                "LINESTRING(0 -10000, 0 10000)"
+            </Parameter>
+        </Datasource>
+    </Layer>
+
+    <Style name="My Style">
+        <Rule>
+            <LineSymbolizer stroke-width="10" stroke="red" />
+            <TextSymbolizer size="12" face-name="DejaVu Sans Book" fill="black" placement="line" spacing="12">"text"</TextSymbolizer>
+        </Rule>
+    </Style>
+
+</Map>
+

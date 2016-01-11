@@ -1,0 +1,54 @@
+<Map
+    background-color="#000"
+    srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Parameters>
+        <Parameter name="sizes">800,600</Parameter>
+    </Parameters>
+
+    <Style name="polygon">
+        <Rule>
+            <PolygonSymbolizer fill="#800000" />
+            <LineSymbolizer stroke="red" stroke-width="2" offset="4" />
+            <LineSymbolizer stroke="green" stroke-width="2" offset="-4" />
+            <MarkersSymbolizer placement="vertex-first" width="7" stroke-width="1" stroke="white" fill="purple" allow-overlap="true" />
+            <MarkersSymbolizer placement="vertex-last" width="10" stroke-width=".5" stroke="white" fill="yellow" allow-overlap="true" />
+            <TextSymbolizer placement="line"
+                face-name="DejaVu Sans Bold"
+                allow-overlap="true"
+                halo-radius="1"
+                dy="4"
+                vertical-alignment="middle"
+                >'label dy=4'</TextSymbolizer>
+            <TextSymbolizer placement="line"
+                face-name="DejaVu Sans Bold"
+                allow-overlap="true"
+                halo-radius="1"
+                dy="-4"
+                vertical-alignment="middle"
+                >'label dy=-4'</TextSymbolizer>
+        </Rule>
+    </Style>
+
+    <Style name="frame">
+        <Rule>
+            <PolygonSymbolizer />
+        </Rule>
+    </Style>
+    <Layer name="frame" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+        <StyleName>frame</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+wkt|name
+Polygon((-75.0 -75.0, -75.0 75.0, 35.0 75.0, 35.0 -75.0, -75.0 -75.0))|bounds
+            </Parameter>
+        </Datasource>
+    </Layer>
+    <Layer name="bug" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+        <StyleName>polygon</StyleName>
+        <Datasource>
+            <Parameter name="type">geojson</Parameter>
+            <Parameter name="file">../../data/json/various-orientation.json</Parameter>
+        </Datasource>
+    </Layer>
+</Map>

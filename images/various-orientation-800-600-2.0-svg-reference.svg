@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800px" height="600px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+<rect x="0" y="0" width="800px" height="600px" fill="#000000"/>
+<g id="frame" inkscape:groupmode="layer" inkscape:label="frame">
+<path d="M180.0 600.0 L620.0 600.0 L620.0 0.0 L180.0 0.0 L180.0 600.0" stroke-dasharray="" fill="#808080" fill-opacity="1.0" stroke="none" stroke-opacity="1.0" stroke-width="0.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+<g id="bug" inkscape:groupmode="layer" inkscape:label="bug">
+<path d="M600.0 380.0 L200.0 380.0 L200.0 580.0 L600.0 580.0 L600.0 380.0 M240.0 420.0 L360.0 420.0 L360.0 540.0 L240.0 540.0 L240.0 420.0 M440.0 420.0 L560.0 420.0 L560.0 540.0 L440.0 540.0 L440.0 420.0" stroke-dasharray="" fill="#800000" fill-opacity="1.0" stroke="#008000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M200.0 20.0 L200.0 220.0 L600.0 220.0 L600.0 20.0 L200.0 20.0 M240.0 60.0 L360.0 60.0 L360.0 180.0 L240.0 180.0 L240.0 60.0 M560.0 180.0 L440.0 180.0 L440.0 60.0 L560.0 60.0 L560.0 180.0" stroke-dasharray="" fill="#800000" fill-opacity="1.0" stroke="#008000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M212.8125 241.5806 L350.625 240.2209 L347.8125 358.4194 L211.4063 357.0575 L211.4063 273.3416" stroke-dasharray="" fill="#800000" fill-opacity="1.0" stroke="#008000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+<path d="M425.1563 240.2209 L425.1563 355.6936 L568.5938 354.3277 L570.0 238.8633 L458.9063 240.2209" stroke-dasharray="" fill="#800000" fill-opacity="1.0" stroke="#008000" stroke-opacity="1.0" stroke-width="2.0px" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="0.0px"/>
+</g>
+</svg>

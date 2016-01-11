@@ -7,7 +7,7 @@
         <Rule>
             <LineSymbolizer stroke="rgb(255,255,255)" />
             <MarkersSymbolizer placement="vertex-first" file="shape://arrow" ignore-placement="true" transform="scale(0.7)" />
-            <TextSymbolizer dy="5" placement="line" label-position-tolerance="5" spacing="60" face-name="DejaVu Sans Book" halo-radius="1" halo-fill="rgb(255,255,0)">[NAME]</TextSymbolizer>
+            <TextSymbolizer dy="-5" placement="line" label-position-tolerance="5" spacing="60" face-name="DejaVu Sans Book" halo-radius="1" halo-fill="rgb(255,255,0)">[NAME]</TextSymbolizer>
         </Rule>
     </Style>
     <Layer name="road" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
