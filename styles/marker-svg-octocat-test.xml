@@ -2,7 +2,7 @@
 
     <Style name="svg">
         <Rule>
-            <MarkersSymbolizer file="../../data/svg/octocat.svg"/>
+            <MarkersSymbolizer width="50" height="50" file="../../data/svg/octocat.svg"/>
         </Rule>
     </Style>
 
