@@ -3,8 +3,6 @@
 <Map background-color="white" srs="+proj=latlong +datum=WGS84">
     <Parameters>
         <Parameter name="sizes">400, 400</Parameter>
-        <Parameter name="bbox">43.8937002,43.992093,12.4033246,12.5160665</Parameter>
-
     </Parameters>
 
     <Layer name="layer" srs="+proj=latlong +datum=WGS84">
