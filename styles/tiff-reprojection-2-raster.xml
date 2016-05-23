@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#b8dee6" maximum-extent="-20037508.34,-20037508.34,20037508.34,20037508.34">
+  <Parameters>
+    <Parameter name="sizes">250,250</Parameter>
+  </Parameters>
+
+<Style name="samp1" filter-mode="first">
+  <Rule>
+    <RasterSymbolizer>
+      <RasterColorizer default-mode="linear" default-color="white" epsilon="0.001">
+	<stop color="transparent" value = "-32768"  />
+	<stop color="black" value = "-32767" mode = "discrete" />
+      </RasterColorizer>
+    </RasterSymbolizer>
+  </Rule>
+</Style>
+<Layer name="samp1"
+  srs="+init=epsg:26910">
+    <StyleName>samp1</StyleName>
+    <Datasource>
+       <Parameter name="file">/Users/artem/Projects/mapnik/test/data/raster/lower_columbianone.tif</Parameter>
+       <Parameter name="type">raster</Parameter>
+       <Parameter name="extent">406270.065,5120396.506,440380.065,5141486.506</Parameter>
+    </Datasource>
+  </Layer>
+</Map>
