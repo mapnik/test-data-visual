@@ -19,7 +19,7 @@
   srs="+init=epsg:26910">
     <StyleName>samp1</StyleName>
     <Datasource>
-       <Parameter name="file">/Users/artem/Projects/mapnik/test/data/raster/lower_columbia.tif</Parameter>
+       <Parameter name="file">../../data/raster/lower_columbia.tif</Parameter>
        <Parameter name="type">raster</Parameter>
        <Parameter name="extent">406270.065,5120396.506,440380.065,5141486.506</Parameter>
     </Datasource>
