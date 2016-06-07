@@ -1,0 +1,14 @@
+<Map>
+  <Style name="style">
+    <Rule>
+      <RasterSymbolizer opacity="1" scaling="bilinear" />
+    </Rule>
+  </Style>
+  <Layer name="layer" buffer-size="0">
+    <StyleName>style</StyleName>
+    <Datasource>
+      <Parameter name="type">gdal</Parameter>
+      <Parameter name="file">../../data/raster/stefan_full_ycbcr_mask.tif</Parameter>
+    </Datasource>
+  </Layer>
+</Map>
