@@ -1,0 +1,26 @@
+<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+    background-image="../../data/images/pattern.png">
+
+    <Parameters>
+        <Parameter name="sizes">300,300</Parameter>
+        <Parameter name="bbox">-40,0,25,90</Parameter>
+    </Parameters>
+
+    <Style name="polygon">
+        <Rule>
+            <BuildingSymbolizer
+                height="20"
+                fill="grey"
+                fill-opacity="1"
+                />
+        </Rule>
+    </Style>
+
+    <Layer name="bug" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+        <StyleName>polygon</StyleName>
+        <Datasource>
+            <Parameter name="type">geojson</Parameter>
+            <Parameter name="file">../../data/json/poly-multihole.json</Parameter>
+        </Datasource>
+    </Layer>
+</Map>
