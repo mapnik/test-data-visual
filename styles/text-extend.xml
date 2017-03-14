@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map>
+<Map background-color="white">
+
+    <Parameters>
+        <Parameter name="sizes">512, 512</Parameter>
+        <Parameter name="bbox">0, 0, 50, 50</Parameter>
+    </Parameters>
+
+    <Style name="style">
+        <Rule>
+            <LineSymbolizer
+                stroke-width="5"
+                stroke="red"
+                />
+            <TextSymbolizer
+                size="20"
+                face-name="DejaVu Sans Book"
+                placement="line"
+                allow-overlap="true"
+                extend="1000"
+                max-char-angle-delta="0"
+                >
+                "label on extended geometry"
+            </TextSymbolizer>
+            <TextSymbolizer
+                size="20"
+                face-name="DejaVu Sans Book"
+                placement="line"
+                allow-overlap="true"
+                extend="1000"
+                max-char-angle-delta="0"
+                dy="-20"
+                smooth="0.1"
+                >
+                "label on extended geometry"
+            </TextSymbolizer>
+            <TextSymbolizer
+                size="20"
+                face-name="DejaVu Sans Book"
+                placement="line"
+                allow-overlap="true"
+                extend="1000"
+                max-char-angle-delta="0"
+                dy="20"
+                smooth="1"
+                >
+                "label on extended geometry"
+            </TextSymbolizer>
+        </Rule>
+    </Style>
+
+    <Layer name="layer">
+        <StyleName>style</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                wkt
+                "LINESTRING(28.9599609375 33.490100708569614,33.7060546875 30.81168525298968,37.4853515625 33.85581940594627)"
+                "LINESTRING(23.4228515625 14.75788519200686,27.3779296875 18.29612241175095,30.9814453125 14.162143165417262,35.1123046875 18.29612241175095)"
+                "LINESTRING(7.7783203125 33.78280015303917,8.3056640625 26.415486559029276)"
+            </Parameter>
+        </Datasource>
+    </Layer>
+
+</Map>
