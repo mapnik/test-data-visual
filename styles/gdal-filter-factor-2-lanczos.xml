@@ -5,7 +5,7 @@
 
 <Style name="test">
   <Rule>
-    <RasterSymbolizer filter-factor="1"/>
+    <RasterSymbolizer filter-factor="2" scaling="lanczos"/>
   </Rule>
 </Style>
 
