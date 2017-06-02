@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map srs="+init=epsg:32630" background-color="steelblue">
+    <Parameters>
+        <Parameter name="sizes">256,256</Parameter>
+    </Parameters>
+    <Style name="S1" image-filters="agg-stack-blur(30, 30)" image-filters-inflate="true">
+        <Rule>
+            <RasterSymbolizer/>
+        </Rule>
+    </Style>
+    <Layer name="L1" srs="+init=epsg:32630" comp-op="src-over">
+        <StyleName>S1</StyleName>
+        <Datasource>
+            <Parameter name="file">../../data/raster/dataraster.tif</Parameter>
+            <Parameter name="type">gdal</Parameter>
+        </Datasource>
+    </Layer>
+</Map>
