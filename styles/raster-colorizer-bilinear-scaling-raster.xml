@@ -9,7 +9,7 @@
 <Style name="style">
   <Rule>
     <RasterSymbolizer scaling="bilinear" default-mode="linear" default-color="rgba(0, 0, 0, 0)" comp-op="overlay" >
-    <stop value="1" color="#000000" /> 
+    <stop value="1" color="#000000" />
     <stop value="127" color="#ffffff" /></RasterSymbolizer>
   </Rule>
 </Style>
@@ -19,9 +19,9 @@
     <StyleName>style</StyleName>
     <Datasource>
        <Parameter name="file"><![CDATA[../../data/raster/hillshademultiple.tif]]></Parameter>
-       <Parameter name="band"><![CDATA[1]]></Parameter>
+       <Parameter name="tile_size"><![CDATA[256]]></Parameter>
        <Parameter name="type"><![CDATA[raster]]></Parameter>
     </Datasource>
   </Layer>
- 
+
 </Map>
