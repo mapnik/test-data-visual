@@ -23,7 +23,7 @@
       <Datasource>
           <Parameter name="file">../../data/raster/dataraster.tif</Parameter>
           <Parameter name="type">raster</Parameter>
-          <Parameter name="band">1</Parameter>
+          <Parameter name="tile_size">256</Parameter>
       </Datasource>
   </Layer>
 

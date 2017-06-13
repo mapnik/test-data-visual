@@ -16,6 +16,7 @@
        <Parameter name="file">../../data/raster/river_merc.tiff</Parameter>
        <Parameter name="extent">-8249238.098993212,-486119.1339340762,-8024337.037783274,-302066.9754826002</Parameter>
        <Parameter name="type">raster</Parameter>
+       <Parameter name="tile_size">256</Parameter>
     </Datasource>
   </Layer>
 </Map>
