@@ -1,0 +1,3 @@
+Example color-font from https://github.com/behdad/color-emoji
+
+This is uncompressed version (emoji_builder.py -U) which doesn't require FreeType with PNG support.
