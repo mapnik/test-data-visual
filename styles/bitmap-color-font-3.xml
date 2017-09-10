@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map font-directory="../fonts/color-font/">
+    <Parameters>
+        <Parameter name="sizes">512, 512</Parameter>
+        <Parameter name="bbox">-1.1, -1.1, 1.1, 1.1</Parameter>
+    </Parameters>
+    <Style name="1">
+        <Rule>
+            <LineSymbolizer
+                stroke="grey"
+                stroke-width="30"
+                smooth="1"
+                />
+            <TextSymbolizer
+                placement="line"
+                upright="right-only"
+                smooth="1"
+                spacing="20"
+                face-name="ColorArrows Medium"
+                size="20"
+                halo-radius="2"
+                halo-fill="white"
+                >
+                <Format size="14" face-name="DejaVu Sans Book">"CCW: "</Format>
+                 "\xee\x80\x87"
+            </TextSymbolizer>
+            <TextSymbolizer
+                placement="line"
+                upright="left-only"
+                smooth="1"
+                spacing="20"
+                face-name="ColorArrows Medium"
+                size="20"
+                halo-radius="2"
+                halo-fill="white"
+                >
+                <Format size="14" face-name="DejaVu Sans Book">"CCW: "</Format>
+                 "\xee\x80\x86"
+            </TextSymbolizer>
+
+            <TextSymbolizer
+                placement="line"
+                dy="-30"
+                upright="right-only"
+                smooth="1"
+                spacing="40"
+                face-name="ColorArrows Medium"
+                size="20"
+                halo-radius="2"
+                halo-fill="white"
+                >
+                <Format size="14" face-name="DejaVu Sans Book">"CW: "</Format>
+                 "\xee\x80\x8a"
+            </TextSymbolizer>
+            <TextSymbolizer
+                placement="line"
+                dy="-30"
+                upright="left-only"
+                smooth="1"
+                spacing="40"
+                face-name="ColorArrows Medium"
+                size="20"
+                halo-radius="2"
+                halo-fill="white"
+                >
+                <Format size="14" face-name="DejaVu Sans Book">"CW: "</Format>
+                 "\xee\x80\x8b"
+            </TextSymbolizer>
+        </Rule>
+    </Style>
+    <Layer name="1">
+        <StyleName>1</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                WKT
+                "POLYGON((-1 0, 0 1, 1 0, 0 -1, -1 0))"
+            </Parameter>
+        </Datasource>
+    </Layer>
+</Map>
