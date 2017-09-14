@@ -1,6 +1,7 @@
 <Map font-directory="../fonts/Funkster/">
     <Parameters>
         <Parameter name="sizes">512, 512</Parameter>
+        <Parameter name="cairo">off</Parameter>
     </Parameters>
     <Style name="1">
         <Rule>
