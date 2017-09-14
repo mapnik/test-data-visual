@@ -2,6 +2,7 @@
     <Parameters>
         <Parameter name="sizes">256, 256</Parameter>
         <Parameter name="bbox">-1, -1, 1, 1</Parameter>
+        <Parameter name="cairo">off</Parameter>
     </Parameters>
     <Style name="1">
         <Rule>
