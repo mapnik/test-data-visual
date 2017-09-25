@@ -41,7 +41,7 @@
                 fill="black"
                 halo-radius="1"
                 halo-fill="white"
-                dx="-12"
+                dx="12"
                 >
                 "Interior\nplacement"
             </TextSymbolizer>
@@ -53,7 +53,7 @@
                 fill="black"
                 halo-radius="1"
                 halo-fill="white"
-                dx="12"
+                dx="-12"
                 >
                 "Centroid\nplacement"
             </TextSymbolizer>
