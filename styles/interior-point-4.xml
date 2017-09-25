@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map>
+<Map srs="+proj=latlong +datum=WGS84">
+    <Parameters>
+        <Parameter name="sizes">512, 512</Parameter>
+    </Parameters>
+
+    <Layer name="layer" srs="+proj=latlong +datum=WGS84">
+        <StyleName>lines</StyleName>
+        <Datasource>
+            <Parameter name="type">geojson</Parameter>
+            <Parameter name="inline">
+            {"type":"Polygon","coordinates":[[[6.0738081,50.7648055],[6.0739302,50.7647399],[6.0740465,50.7648267],[6.0740276,50.7648368],[6.0741213,50.7649066],[6.0744669,50.7647212],[6.0744338,50.7646965],[6.0745206,50.76465],[6.074568,50.7646854],[6.0746736,50.7646287],[6.0745386,50.7645281],[6.0746444,50.7644713],[6.0748104,50.764595],[6.0745917,50.7647124],[6.0747442,50.7648261],[6.0746134,50.7648962],[6.0745671,50.7648617],[6.0742824,50.7650144],[6.0742532,50.7649926],[6.074166,50.7650394],[6.0738612,50.7648121],[6.0738354,50.7648259],[6.0738081,50.7648055]]]}
+            </Parameter>
+        </Datasource>
+    </Layer>
+
+    <Style name="lines">
+        <Rule>
+            <LineSymbolizer
+                stroke="red"
+                stroke-width="1"
+                />
+            <MarkersSymbolizer
+                placement="interior"
+                ignore-placement="true"
+                allow-overlap="true"
+                fill="blue"
+                />
+            <MarkersSymbolizer
+                placement="point"
+                ignore-placement="true"
+                allow-overlap="true"
+                fill="green"
+                />
+            <TextSymbolizer
+                placement="interior"
+                face-name="DejaVu Sans Book"
+                allow-overlap="true"
+                size="12"
+                fill="black"
+                halo-radius="1"
+                halo-fill="white"
+                >
+                "Interior\nplacement"
+            </TextSymbolizer>
+            <TextSymbolizer
+                placement="centroid"
+                face-name="DejaVu Sans Book"
+                allow-overlap="true"
+                size="12"
+                fill="black"
+                halo-radius="1"
+                halo-fill="white"
+                >
+                "Centroid\nplacement"
+            </TextSymbolizer>
+        </Rule>
+    </Style>
+</Map>
