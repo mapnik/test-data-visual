@@ -3,7 +3,6 @@
 <Map background-color="white" srs="+proj=latlong +datum=WGS84">
     <Parameters>
         <Parameter name="sizes">800, 800</Parameter>
-        <Parameter name="bbox">-545426.07,423373.19,-150031.2,748768.06</Parameter>
     </Parameters>
 
     <Layer name="layer" srs="+proj=latlong +datum=WGS84">
@@ -24,16 +23,38 @@
                 stroke="red"
                 />
             <MarkersSymbolizer
-                ignore-placement="true"
                 placement="interior"
+                ignore-placement="true"
+                allow-overlap="true"
+                fill="blue"
+                />
+            <MarkersSymbolizer
+                placement="point"
+                ignore-placement="true"
+                allow-overlap="true"
                 fill="green"
                 />
             <TextSymbolizer
                 placement="interior"
                 face-name="DejaVu Sans Book"
+                allow-overlap="true"
                 size="12"
+                fill="black"
+                halo-radius="1"
+                halo-fill="white"
                 >
                 "Interior\nplacement"
+            </TextSymbolizer>
+            <TextSymbolizer
+                placement="centroid"
+                face-name="DejaVu Sans Book"
+                allow-overlap="true"
+                size="12"
+                fill="black"
+                halo-radius="1"
+                halo-fill="white"
+                >
+                "Centroid\nplacement"
             </TextSymbolizer>
         </Rule>
     </Style>
