@@ -21,43 +21,73 @@
                 stroke="red"
                 stroke-width="1"
                 />
+
             <MarkersSymbolizer
                 placement="interior"
                 ignore-placement="true"
                 allow-overlap="true"
                 fill="blue"
-                width="20"
-                height="20"
+                width="15"
+                height="15"
                 />
             <MarkersSymbolizer
                 placement="point"
                 ignore-placement="true"
                 allow-overlap="true"
                 fill="green"
+                width="15"
+                height="15"
                 />
+            <MarkersSymbolizer
+                placement="polylabel"
+                ignore-placement="true"
+                allow-overlap="true"
+                fill="red"
+                width="15"
+                height="15"
+                />
+
             <TextSymbolizer
                 placement="interior"
+                placement-type="simple"
+                placements="C,N,S,W,E,NE,SE,NW,SW"
                 face-name="DejaVu Sans Book"
-                allow-overlap="true"
                 size="12"
-                fill="black"
+                fill="blue"
                 halo-radius="1"
                 halo-fill="white"
-                dx="-2"
+                dx="12"
+                dy="12"
                 >
-                "Interior\nplacement"
+                "Interior"
             </TextSymbolizer>
             <TextSymbolizer
                 placement="centroid"
+                placement-type="simple"
+                placements="C,N,S,W,E,NE,SE,NW,SW"
                 face-name="DejaVu Sans Book"
-                allow-overlap="true"
                 size="12"
-                fill="black"
+                fill="green"
                 halo-radius="1"
                 halo-fill="white"
-                dx="2"
+                dx="12"
+                dy="12"
                 >
-                "Centroid\nplacement"
+                "Centroid"
+            </TextSymbolizer>
+            <TextSymbolizer
+                placement="polylabel"
+                placement-type="simple"
+                placements="C,N,S,W,E,NE,SE,NW,SW"
+                face-name="DejaVu Sans Book"
+                size="12"
+                fill="red"
+                halo-radius="1"
+                halo-fill="white"
+                dx="12"
+                dy="12"
+                >
+                "Polylabel"
             </TextSymbolizer>
         </Rule>
     </Style>
