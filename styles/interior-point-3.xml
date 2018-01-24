@@ -11,11 +11,18 @@
             <Parameter name="type">geojson</Parameter>
             <Parameter name="inline">
                 {
+                "type": "FeatureCollection",
+                "features": [
+                    { "type": "Feature",
+                        "geometry"  : {
                     "type": "Polygon",
                     "coordinates": [
                         [[6.8132949,51.1840978],[6.8133459,51.1840668],[6.8135717,51.1839295],[6.8137521,51.1838198],[6.8139437,51.1839437],[6.8138745,51.1839858],[6.8139206,51.1840156],[6.8138989,51.1840288],[6.8138762,51.1840426],[6.8140302,51.1841421],[6.8141435,51.1842153],[6.8140383,51.1842758],[6.8140695,51.1842914],[6.8140806,51.1843206],[6.814073,51.1843459],[6.8140452,51.1843698],[6.8139987,51.1843842],[6.8139556,51.1843877],[6.8139167,51.1843768],[6.8138965,51.1843576],[6.8138253,51.1844021],[6.8137951,51.1844211],[6.8135477,51.1842612],[6.8132949,51.1840978]],
                         [[6.8134862,51.1841378],[6.8136716,51.1842557],[6.8138711,51.1841325],[6.8136857,51.1840145],[6.8134862,51.1841378]]]
                 }
+                    }
+                ]
+            }
             </Parameter>
         </Datasource>
     </Layer>
@@ -26,39 +33,51 @@
                 stroke="red"
                 stroke-width="1"
                 />
+
             <MarkersSymbolizer
                 placement="interior"
                 ignore-placement="true"
                 allow-overlap="true"
                 fill="blue"
+                width="15"
+                height="15"
                 />
             <MarkersSymbolizer
                 placement="point"
                 ignore-placement="true"
                 allow-overlap="true"
                 fill="green"
+                width="15"
+                height="15"
                 />
+
             <TextSymbolizer
                 placement="interior"
+                placement-type="simple"
+                placements="N,S,W,E,NE,SE,NW,SW"
                 face-name="DejaVu Sans Book"
-                allow-overlap="true"
                 size="12"
-                fill="black"
+                fill="blue"
                 halo-radius="1"
                 halo-fill="white"
+                dx="12"
+                dy="12"
                 >
-                "Interior\nplacement"
+                "Interior"
             </TextSymbolizer>
             <TextSymbolizer
                 placement="centroid"
+                placement-type="simple"
+                placements="N,S,W,E,NE,SE,NW,SW"
                 face-name="DejaVu Sans Book"
-                allow-overlap="true"
                 size="12"
-                fill="black"
+                fill="green"
                 halo-radius="1"
                 halo-fill="white"
+                dx="12"
+                dy="12"
                 >
-                "Centroid\nplacement"
+                "Centroid"
             </TextSymbolizer>
         </Rule>
     </Style>
