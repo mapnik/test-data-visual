@@ -18,7 +18,7 @@
         <StyleName>polygon</StyleName>
         <Datasource>
             <Parameter name="type">geojson</Parameter>
-            <Parameter name="file">../../data/json/poly-multihole.json</Parameter>
+            <Parameter name="file">../../data/json/multipoly-hole.json</Parameter>
         </Datasource>
     </Layer>
 </Map>
