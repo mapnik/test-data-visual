@@ -1,0 +1,33 @@
+<Map>
+    <Parameters>
+        <Parameter name="sizes">256,256</Parameter>
+        <Parameter name="tiles">1,1;4,4</Parameter>
+    </Parameters>
+
+    <Style name="polygon">
+        <Rule>
+            <PolygonPatternSymbolizer
+                alignment="local"
+                clip="true"
+                transform="scale(0.3)"
+                file="../../data/svg/octocat.svg"
+                />
+            <LineSymbolizer
+                stroke="red"
+                stroke-width="1"
+                />
+        </Rule>
+    </Style>
+
+    <Layer name="polygon">
+        <StyleName>polygon</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                wkt
+                "POLYGON((1 0, 0 -1, -1 0, 0 1, 1 0))"
+                "POLYGON((1.5 0.5, 0.5 -0.5, -0.5 0.5, 0.5 1.5, 1.5 0.5))"
+            </Parameter>
+        </Datasource>
+    </Layer>
+</Map>
