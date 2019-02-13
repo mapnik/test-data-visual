@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map>
+<Map>
+    <Parameters>
+        <Parameter name="sizes">512, 512</Parameter>
+    </Parameters>
+
+    <Layer>
+        <StyleName>My Style</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="separator">|</Parameter>
+            <Parameter name="inline">
+                wkt
+                LINESTRING(0.8250000000000001 4.0, 1.4533185307179588 5.0, 2.0816370614359174 4.0, 2.709955592153876 3.0, 3.3382741228718347 3.9999999999999996)
+                LINESTRING(0.6000000000000001 5.0, 1.2283185307179587 5.951056516295154, 1.8566370614359173 5.587785252292473, 2.4849555921538764 4.412214747707527, 3.1132741228718346 4.048943483704846, 3.741592653589793 5.0)
+                LINESTRING(0.32499999999999996 6.0, 0.9533185307179586 6.866025403784438, 1.5816370614359172 6.866025403784438, 2.209955592153876 6.0, 2.8382741228718347 5.133974596215562, 3.4665926535897933 5.133974596215562, 4.094911184307752 6.0)
+                LINESTRING(0.0 7.0, 0.6283185307179586 7.7818314824680295, 1.2566370614359172 7.9749279121818235, 1.8849555921538759 7.433883739117558, 2.5132741228718345 6.566116260882442, 3.141592653589793 6.0250720878181765, 3.7699111843077517 6.21816851753197, 4.39822971502571 7.0)
+            </Parameter>
+        </Datasource>
+    </Layer>
+
+    <Style name="My Style">
+        <Rule>
+            <LineSymbolizer
+                stroke-width="10"
+                stroke="lightgray"
+                />
+            <LineSymbolizer
+                stroke-width="2"
+                stroke="red"
+                smooth="1"
+                />
+            <LineSymbolizer
+                stroke-width="2"
+                stroke="green"
+                smooth="1"
+                smooth-algorithm="adaptive"
+                />
+        </Rule>
+    </Style>
+</Map>
