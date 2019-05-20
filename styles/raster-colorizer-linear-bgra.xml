@@ -1,0 +1,26 @@
+<Map srs="+init=epsg:3857">
+    <Parameters>
+        <Parameter name="sizes">256,256</Parameter>
+        <Parameter name="bbox">1366002.659, 6457297.748, 1367152.659, 6458447.748</Parameter>
+    </Parameters>
+
+    <Style name="raster">
+        <Rule>
+            <RasterSymbolizer scaling="bicubic">
+                <RasterColorizer default-mode="linear-bgra">
+                    <stop value="-10000" color="#000000"/>
+                    <stop value="1667721.5" color="#FFFFFF"/>
+                </RasterColorizer>
+            </RasterSymbolizer>
+        </Rule>
+    </Style>
+
+    <Layer name="raster" srs="+init=epsg:3857">
+        <StyleName>raster</StyleName>
+        <Datasource>
+            <Parameter name="file">../../data/raster/mercator.tif</Parameter>
+            <Parameter name="type">gdal</Parameter>
+            <Parameter name="band">2</Parameter>
+        </Datasource>
+    </Layer>
+</Map>
