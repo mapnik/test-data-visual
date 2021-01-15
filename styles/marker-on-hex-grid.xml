@@ -1,5 +1,5 @@
 <!DOCTYPE Map>
-<Map background-color="white" srs="+init=epsg:4326" minimum-version="0.7.2">
+<Map background-color="white" srs="epsg:4326" minimum-version="0.7.2">
     <Parameters>
         <Parameter name="sizes">600,400; 400,600; 257,256</Parameter>
     </Parameters>
@@ -17,7 +17,7 @@
             <DebugSymbolizer />
         </Rule>
     </Style>
-    <Layer name="point" srs="+init=epsg:4326">
+    <Layer name="point" srs="epsg:4326">
         <StyleName>1</StyleName>
         <Datasource>
             <Parameter name="type">shape</Parameter>

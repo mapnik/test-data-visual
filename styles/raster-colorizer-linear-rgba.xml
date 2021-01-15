@@ -1,4 +1,4 @@
-<Map srs="+init=epsg:3857">
+<Map srs="epsg:3857">
     <Parameters>
         <Parameter name="sizes">256,256</Parameter>
         <Parameter name="bbox">1366002.659, 6457297.748, 1367152.659, 6458447.748</Parameter>
@@ -15,7 +15,7 @@
         </Rule>
     </Style>
 
-    <Layer name="raster" srs="+init=epsg:3857">
+    <Layer name="raster" srs="epsg:3857">
         <StyleName>raster</StyleName>
         <Datasource>
             <Parameter name="file">../../data/raster/mercator.tif</Parameter>

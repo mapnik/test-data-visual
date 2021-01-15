@@ -1,4 +1,4 @@
-<Map srs="+init=epsg:32630" background-color="white">
+<Map srs="epsg:32630" background-color="white">
   <Parameters>
     <Parameter name="sizes">256, 256</Parameter>
     <Parameter name="bbox">-14637 , 4420391.0311 , 424649.968901 , 4859678</Parameter>
@@ -13,7 +13,7 @@
         </RasterSymbolizer>
     </Rule>
 </Style>
-<Layer name="1" srs="+init=epsg:32630">
+<Layer name="1" srs="epsg:32630">
     <StyleName>1</StyleName>
     <Datasource>
        <Parameter name="file">../../data/raster/dataraster.tif</Parameter>

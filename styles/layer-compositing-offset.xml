@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Map srs="+init=epsg:32630" background-color="steelblue">
+<Map srs="epsg:32630" background-color="steelblue">
     <Parameters>
         <Parameter name="sizes">256,256</Parameter>
     </Parameters>
@@ -8,7 +8,7 @@
             <RasterSymbolizer/>
         </Rule>
     </Style>
-    <Layer name="L1" srs="+init=epsg:32630" comp-op="src-over">
+    <Layer name="L1" srs="epsg:32630" comp-op="src-over">
         <StyleName>S1</StyleName>
         <Datasource>
             <Parameter name="file">../../data/raster/dataraster.tif</Parameter>

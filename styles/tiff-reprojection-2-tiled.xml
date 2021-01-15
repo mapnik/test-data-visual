@@ -12,7 +12,7 @@
         </Rule>
     </Style>
 
-    <Layer name="samp1" srs="+init=epsg:26910">
+    <Layer name="samp1" srs="epsg:26910">
         <StyleName>samp1</StyleName>
         <Datasource>
             <Parameter name="file">../../data/raster/lower_columbia.tif</Parameter>

@@ -1,4 +1,4 @@
-<Map srs="+init=epsg:4326">
+<Map srs="epsg:4326">
 
     <Style name="svg">
         <Rule>
@@ -6,7 +6,7 @@
         </Rule>
     </Style>
 
-    <Layer name="svg" srs="+init=epsg:4326">
+    <Layer name="svg" srs="epsg:4326">
         <StyleName>svg</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -26,7 +26,7 @@ x,y
         </Rule>
     </Style>
 
-    <Layer name="frame" srs="+init=epsg:4326">
+    <Layer name="frame" srs="epsg:4326">
         <StyleName>frame</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -39,5 +39,5 @@ x,y
             </Parameter>
         </Datasource>
     </Layer>
-    
+
 </Map>

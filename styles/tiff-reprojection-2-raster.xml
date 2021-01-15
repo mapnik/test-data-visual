@@ -9,14 +9,14 @@
   <Rule>
     <RasterSymbolizer>
       <RasterColorizer default-mode="linear" default-color="white" epsilon="0.001">
-	<stop color="transparent" value = "-32768"  />
-	<stop color="black" value = "-32767" mode = "discrete" />
+        <stop color="transparent" value = "-32768"  />
+        <stop color="black" value = "-32767" mode = "discrete" />
       </RasterColorizer>
     </RasterSymbolizer>
   </Rule>
 </Style>
 <Layer name="samp1"
-  srs="+init=epsg:26910">
+  srs="epsg:26910">
     <StyleName>samp1</StyleName>
     <Datasource>
        <Parameter name="file">../../data/raster/lower_columbia.tif</Parameter>

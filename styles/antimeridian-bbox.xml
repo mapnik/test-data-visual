@@ -10,7 +10,7 @@
     <PointSymbolizer/>
   </Rule>
 </Style>
-<Layer name="src_layer" srs="+init=epsg:4326">
+<Layer name="src_layer" srs="epsg:4326">
     <StyleName>mystyle</StyleName>
     <Datasource>
        <Parameter name="extent">-180,-47.2754736667,180,-34.0036943</Parameter>
