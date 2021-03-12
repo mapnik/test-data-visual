@@ -14,7 +14,7 @@
             <TextSymbolizer size="20" fontset-name="fontset-1" clip="false">[name]</TextSymbolizer>
         </Rule>
     </Style>
-    <Layer name="text" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="text" srs="epsg:4326">
         <StyleName>text</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>

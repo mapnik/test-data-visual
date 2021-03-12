@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map[]>
-<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+<Map srs="epsg:4326">
   <Parameters>
     <Parameter name="sizes">386,395</Parameter>
   </Parameters>
@@ -11,7 +11,7 @@
   </Rule>
 </Style>
 <Layer name="raster"
-  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  srs="epsg:4326">
     <StyleName>raster</StyleName>
     <Datasource>
        <Parameter name="file">../../data/webp/extended.webp</Parameter>

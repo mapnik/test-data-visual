@@ -1,4 +1,4 @@
-<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+<Map srs="epsg:4326"
   background-image="../../data/images/checker.jpg"
 >
     <Parameters>
@@ -38,7 +38,7 @@
         </Rule>
     </Style>
 
-    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="layer" srs="epsg:4326">
         <StyleName>ellipse</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -57,7 +57,7 @@ x,y
         </Rule>
     </Style>
 
-    <Layer name="frame" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="frame" srs="epsg:4326">
         <StyleName>frame</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>

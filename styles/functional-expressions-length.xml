@@ -1,4 +1,4 @@
-<Map background-color="#eee" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+<Map background-color="#eee" srs="epsg:4326">
   <Parameters>
     <Parameter name="sizes">512, 512</Parameter>
   </Parameters>
@@ -9,20 +9,20 @@
     <Rule>
       <Filter>[mapnik::geometry_type]=linestring</Filter>
       <LineSymbolizer
-	  stroke="[color]"
-	  stroke-width="[width]"
-	  offset="-1.0*abs([offset]*2.0)"/>
+          stroke="[color]"
+          stroke-width="[width]"
+          offset="-1.0*abs([offset]*2.0)"/>
     </Rule>
     <Rule>
       <Filter>[mapnik::geometry_type]=point</Filter>
       <MarkersSymbolizer
-	  file="../../[base-path]/[filetype]/[filename].[filetype]"
-	  width="exp(0.4*length([name]))"
-	  />
+          file="../../[base-path]/[filetype]/[filename].[filetype]"
+          width="exp(0.4*length([name]))"
+          />
     </Rule>
   </Style>
 
-  <Layer name="frame" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Layer name="frame" srs="epsg:4326">
     <StyleName>frame</StyleName>
     <Datasource>
       <Parameter name="type">ogr</Parameter>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Without unlock-image -->
 <!DOCTYPE Map>
-<Map background-color="green" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs" minimum-version="2.0.0">
+<Map background-color="green" srs="epsg:4326" minimum-version="2.0.0">
   <Parameters>
     <Parameter name="sizes">512,256</Parameter>
   </Parameters>
 
-  <Layer name="obstacle" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Layer name="obstacle" srs="epsg:4326">
     <StyleName>obstacle</StyleName>
     <Datasource>
       <Parameter name="type">csv</Parameter>
@@ -24,7 +24,7 @@ lat,long
     </Rule>
   </Style>
 
-  <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Layer name="layer" srs="epsg:4326">
     <StyleName>grouped</StyleName>
     <Datasource>
       <Parameter name="type">csv</Parameter>
@@ -49,7 +49,7 @@ lat,long,name1,ref1,name2,ref2,margin
     </Rule>
   </Style>
 
-  <Layer name="frame" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Layer name="frame" srs="epsg:4326">
     <StyleName>frame</StyleName>
     <Datasource>
       <Parameter name="type">csv</Parameter>
@@ -68,7 +68,7 @@ lat,long,nr
       <PointSymbolizer/>
     </Rule>
   </Style>
-  <Layer name="layer3" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Layer name="layer3" srs="epsg:4326">
     <StyleName>center</StyleName>
     <Datasource>
       <Parameter name="type">csv</Parameter>

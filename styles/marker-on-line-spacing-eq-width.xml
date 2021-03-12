@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map>
-<Map background-color="white" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+<Map background-color="white" srs="epsg:4326">
     <Parameters>
         <Parameter name="sizes">600,400</Parameter>
     </Parameters>
-    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="layer" srs="epsg:4326">
         <StyleName>alpha</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -14,7 +14,7 @@
             </Parameter>
         </Datasource>
     </Layer>
-    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="layer" srs="epsg:4326">
         <StyleName>beta</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -24,7 +24,7 @@
             </Parameter>
         </Datasource>
     </Layer>
-    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="layer" srs="epsg:4326">
         <StyleName>gamma</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>

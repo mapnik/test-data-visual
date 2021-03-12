@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Without unlock-image -->
 <!DOCTYPE Map>
-<Map background-color="green" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs" minimum-version="2.0.0">
+<Map background-color="green" srs="epsg:4326" minimum-version="2.0.0">
   <Parameters>
     <Parameter name="sizes">512,512</Parameter>
   </Parameters>
@@ -10,7 +10,7 @@
      supposed to stop collidable / placeable items from being
      too close, even if they're on different features. -->
 
-  <Layer name="alpha" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Layer name="alpha" srs="epsg:4326">
     <StyleName>alpha</StyleName>
     <Datasource>
       <Parameter name="type">csv</Parameter>
@@ -34,7 +34,7 @@ wkt,key1,key2
     </Rule>
   </Style>
 
-  <Layer name="beta" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Layer name="beta" srs="epsg:4326">
     <StyleName>beta</StyleName>
     <Datasource>
       <Parameter name="type">csv</Parameter>
@@ -59,7 +59,7 @@ wkt,name1,ref1,name2,ref2
     </Rule>
   </Style>
 
-  <Layer name="gamma" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Layer name="gamma" srs="epsg:4326">
     <StyleName>gamma</StyleName>
     <Datasource>
       <Parameter name="type">csv</Parameter>
@@ -85,7 +85,7 @@ wkt,name1,ref1,name2,ref2
   </Style>
 
 <!-- for framing -->
-  <Layer name="frame" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Layer name="frame" srs="epsg:4326">
     <StyleName>frame</StyleName>
     <Datasource>
       <Parameter name="type">csv</Parameter>

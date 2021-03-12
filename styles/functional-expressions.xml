@@ -1,4 +1,4 @@
-<Map background-color="#eee" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+<Map background-color="#eee" srs="epsg:4326">
     <Parameters>
         <Parameter name="sizes">256,256</Parameter>
     </Parameters>
@@ -25,7 +25,7 @@
         </Rule>
     </Style>
 
-    <Layer name="frame" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="frame" srs="epsg:4326">
         <StyleName>frame</StyleName>
         <Datasource>
             <Parameter name="type">ogr</Parameter>

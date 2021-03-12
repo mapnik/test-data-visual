@@ -1,4 +1,4 @@
-<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs" background-color="steelblue">
+<Map srs="epsg:4326" background-color="steelblue">
   <Parameters>
     <Parameter name="sizes">512,512</Parameter>
   </Parameters>
@@ -8,7 +8,7 @@
   </Rule>
 </Style>
 <Layer name="heat"
-  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  srs="epsg:4326">
     <StyleName>heat</StyleName>
     <Datasource>
        <!-- created with gdal_translate tests/visual_tests/data/heat.tif -a_nodata 255 tests/visual_tests/data/heat_nodata.tif -->

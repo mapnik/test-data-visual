@@ -4,13 +4,13 @@
   Lohit bengali from https://fedorahosted.org/releases/l/o/lohit/lohit-bengali-ttf-2.5.3.tar.gz
   via https://fedorahosted.org/lohit/
 -->
-<Map background-color="white" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+<Map background-color="white" srs="epsg:4326"
      font-directory="../fonts/lohit-bengali-ttf-2.5.3/">
     <Parameters>
         <Parameter name="sizes">800, 100</Parameter>
     </Parameters>
 
-    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="layer" srs="epsg:4326">
             <StyleName>My Style</StyleName>
             <Datasource>
                 <Parameter name="type">csv</Parameter>

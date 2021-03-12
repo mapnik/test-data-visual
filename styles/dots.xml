@@ -1,5 +1,5 @@
 <Map
-   srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+   srs="epsg:4326"
    background-color="white">
 
     <Style name="dots">
@@ -12,7 +12,7 @@
         </Rule>
     </Style>
 
-    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="layer" srs="epsg:4326">
         <StyleName>dots</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -26,5 +26,5 @@ red,  .5,      3,  3,   "LINESTRING(3 2.5,3.0472522909029145 2.5549083791557554,
             </Parameter>
         </Datasource>
     </Layer>
-    
+
 </Map>

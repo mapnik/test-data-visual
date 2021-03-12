@@ -1,4 +1,4 @@
-<Map background-color="#eee" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+<Map background-color="#eee" srs="epsg:4326">
     <Parameters>
         <Parameter name="sizes">200,200</Parameter>
     </Parameters>
@@ -44,7 +44,7 @@
         </Rule>
     </Style>
 
-    <Layer name="polygon" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="polygon" srs="epsg:4326">
         <StyleName>polygon</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -55,7 +55,7 @@ wkt
         </Datasource>
     </Layer>
 
-    <Layer name="line" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="line" srs="epsg:4326">
         <StyleName>line</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -66,7 +66,7 @@ wkt
         </Datasource>
     </Layer>
 
-    <Layer name="point" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="point" srs="epsg:4326">
         <StyleName>point</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -85,7 +85,7 @@ wkt
         </Rule>
     </Style>
 
-    <Layer name="frame" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="frame" srs="epsg:4326">
         <StyleName>frame</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -98,5 +98,5 @@ x,y
             </Parameter>
         </Datasource>
     </Layer>
-    
+
 </Map>

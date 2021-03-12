@@ -3,11 +3,11 @@
     background-image="../../data/images/checker.jpg"
     background-image-opacity=".5"
     background-image-comp-op="soft-light"
-    srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    srs="epsg:4326">
     <Parameters>
         <Parameter name="sizes">512,512</Parameter>
     </Parameters>
-    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="layer" srs="epsg:4326">
         <StyleName>My Style</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>

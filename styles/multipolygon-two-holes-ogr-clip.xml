@@ -1,6 +1,6 @@
 <Map
     background-color="#000"
-    srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    srs="epsg:4326">
     <Parameters>
         <Parameter name="sizes">300,300</Parameter>
     </Parameters>
@@ -14,7 +14,7 @@
         </Rule>
     </Style>
 
-    <Layer name="bug" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="bug" srs="epsg:4326">
         <StyleName>polygon</StyleName>
         <Datasource>
             <Parameter name="type">ogr</Parameter>

@@ -1,4 +1,4 @@
-<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+<Map srs="epsg:4326"
     background-image="../../data/images/pattern.png">
 
     <Parameters>
@@ -16,7 +16,7 @@
         </Rule>
     </Style>
 
-    <Layer name="bug" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="bug" srs="epsg:4326">
         <StyleName>polygon</StyleName>
         <Datasource>
             <Parameter name="type">geojson</Parameter>

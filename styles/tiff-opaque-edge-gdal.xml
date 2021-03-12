@@ -1,4 +1,4 @@
-<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs" background-color="white">
+<Map srs="epsg:4326" background-color="white">
   <Parameters>
     <Parameter name="sizes">256,256; 969,793</Parameter>
   </Parameters>
@@ -9,7 +9,7 @@
   </Rule>
 </Style>
 
-<Layer name="test" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+<Layer name="test" srs="epsg:4326">
     <StyleName>test</StyleName>
     <Datasource>
        <!-- https://github.com/mapnik/mapnik/issues/1508 -->

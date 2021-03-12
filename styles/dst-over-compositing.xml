@@ -1,6 +1,6 @@
-<Map 
+<Map
   background-color="#808080"
-  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  srs="epsg:4326">
     <Parameters>
         <Parameter name="sizes">512,512</Parameter>
     </Parameters>
@@ -11,7 +11,7 @@
         </Rule>
     </Style>
 
-    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="layer" srs="epsg:4326">
         <StyleName>My Style</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>

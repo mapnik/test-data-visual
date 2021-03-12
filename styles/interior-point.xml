@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map>
-<Map background-color="white" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+<Map background-color="white" srs="epsg:4326">
     <Parameters>
         <Parameter name="sizes">256, 256</Parameter>
     </Parameters>
@@ -88,7 +88,7 @@
         </Rule>
     </Style>
 
-    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="layer" srs="epsg:4326">
         <StyleName>test</StyleName>
         <Datasource>
             <Parameter name="type">geojson</Parameter>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map>
 <!-- dy and multi lines test -->
-<Map background-color="white" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+<Map background-color="white" srs="epsg:4326">
     <Parameters>
         <Parameter name="sizes">800, 800; 600, 600; 400, 400; 200, 200</Parameter>
         <Parameter name="bbox">-1.2, -1.2, 1.2, 1.2</Parameter>
     </Parameters>
 
-    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="layer" srs="epsg:4326">
         <StyleName>lines</StyleName>
         <StyleName>text</StyleName>
         <Datasource>

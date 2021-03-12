@@ -1,6 +1,6 @@
 <Map
     background-color="#eee"
-    srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    srs="epsg:4326">
     <Parameters>
         <Parameter name="sizes">256,256</Parameter>
     </Parameters>
@@ -22,14 +22,14 @@
         </Rule>
     </Style>
 
-    <!-- 
+    <!--
       frame is a layer with a single polygon that is used to ensure that m.zoom_all() will zoom the
       map to a reasonable bounding extent to make the test easy to view with tools like nik2img.py
       (which calls m.zoom_all() by default). Another approach in >= Mapnik 2.3.x is to just sent a
       manual `extent` for the CSV datasource.
     -->
 
-    <Layer name="frame" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="frame" srs="epsg:4326">
         <StyleName>frame</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -40,12 +40,12 @@ Polygon((-180.0 -125.0, -180.0 125.0, 180.0 125.0, 180.0 -125.0, -180.0 -125.0))
         </Datasource>
     </Layer>
 
-    <!-- 
+    <!--
       "bug" is a layer that should provide sample data that triggers the bug in question. It is
       listed after the "frame" layer so that it renders on top and is visible.
     -->
 
-    <Layer name="bug" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="bug" srs="epsg:4326">
         <StyleName>bug</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>

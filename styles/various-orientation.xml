@@ -1,6 +1,6 @@
 <Map
     background-color="#000"
-    srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    srs="epsg:4326">
     <Parameters>
         <Parameter name="sizes">800,600</Parameter>
     </Parameters>
@@ -34,7 +34,7 @@
             <PolygonSymbolizer />
         </Rule>
     </Style>
-    <Layer name="frame" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="frame" srs="epsg:4326">
         <StyleName>frame</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -44,7 +44,7 @@ Polygon((-75.0 -75.0, -75.0 75.0, 35.0 75.0, 35.0 -75.0, -75.0 -75.0))|bounds
             </Parameter>
         </Datasource>
     </Layer>
-    <Layer name="bug" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="bug" srs="epsg:4326">
         <StyleName>polygon</StyleName>
         <Datasource>
             <Parameter name="type">geojson</Parameter>

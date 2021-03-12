@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map>
-<Map background-color="green" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs" minimum-version="2.0.0">
+<Map background-color="green" srs="epsg:4326" minimum-version="2.0.0">
   <Parameters>
     <Parameter name="sizes">512, 512</Parameter>
   </Parameters>
 
-  <Layer name="obstacle" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Layer name="obstacle" srs="epsg:4326">
     <StyleName>obstacle</StyleName>
     <Datasource>
       <Parameter name="type">csv</Parameter>
@@ -28,7 +28,7 @@ lat,long,nr
     </Rule>
   </Style>
 
-  <Layer name="layer1" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Layer name="layer1" srs="epsg:4326">
     <StyleName>points</StyleName>
     <Datasource>
       <Parameter name="type">csv</Parameter>
@@ -66,4 +66,3 @@ lat,long,nr,ref
   </Style>
 
 </Map>
-
