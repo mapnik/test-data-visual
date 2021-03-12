@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map>
-<Map srs="+proj=latlong +datum=WGS84">
+<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
     <Parameters>
         <Parameter name="sizes">512, 512</Parameter>
     </Parameters>
 
-    <Layer name="layer" srs="+proj=latlong +datum=WGS84">
+    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
         <StyleName>lines</StyleName>
         <Datasource>
             <Parameter name="type">geojson</Parameter>

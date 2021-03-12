@@ -6,7 +6,7 @@
         <Parameter name="status">off</Parameter>
     </Parameters>
 
-    <Layer name="layer" srs="+proj=latlong +datum=WGS84">
+    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
         <StyleName>lines</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>

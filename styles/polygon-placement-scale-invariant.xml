@@ -5,7 +5,7 @@
         <Parameter name="sizes">512, 512; 256, 256; 128, 128; 64, 64</Parameter>
     </Parameters>
 
-    <Layer name="layer" srs="+proj=latlong +datum=WGS84">
+    <Layer name="layer" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
         <StyleName>lines</StyleName>
         <Datasource>
             <Parameter name="type">geojson</Parameter>
