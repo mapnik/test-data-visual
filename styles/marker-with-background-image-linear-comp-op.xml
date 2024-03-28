@@ -15,7 +15,7 @@
             />
             <MarkersSymbolizer
               width="100"
-              opacity=".5"
+              fill-opacity=".5"
               fill="white"
               comp-op="divide"
               transform="skewX(50)"
@@ -23,7 +23,7 @@
             />
             <MarkersSymbolizer
               width="100"
-              opacity=".5"
+              fill-opacity=".5"
               fill="white"
               comp-op="linear-burn"
               transform="skewX(-50)"
