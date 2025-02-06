@@ -5,6 +5,7 @@
     </Parameters>
     <FontSet name="fontset-1">
         <Font face-name="Noto Sans SC Regular"/>
+        <Font face-name="Noto Sans TC Regular"/>
     </FontSet>
     <Style name="text">
         <Rule>
@@ -16,7 +17,8 @@
         <Datasource>
             <Parameter name="type">csv</Parameter>
             <Parameter name="inline">
-                化汉语
+                x,y,name
+                3,3,化汉语
             </Parameter>
         </Datasource>
     </Layer>
