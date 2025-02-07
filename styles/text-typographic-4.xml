@@ -3,13 +3,20 @@
         <Parameter name="sizes">256,256</Parameter>
         <Parameter name="bbox">0,0,5,5</Parameter>
     </Parameters>
-    <FontSet name="fontset-1">
+    <FontSet name="fontset-tc">
+        <Font face-name="Noto Sans TC Regular"/>
+        <Font face-name="Noto Sans SC Regular"/>
+    </FontSet>
+    <FontSet name="fontset-sc">
         <Font face-name="Noto Sans SC Regular"/>
         <Font face-name="Noto Sans TC Regular"/>
     </FontSet>
     <Style name="text">
         <Rule>
-            <TextSymbolizer lang="zh-Hans" size="20" fontset-name="fontset-1" clip="false">[name]</TextSymbolizer>
+            <TextSymbolizer lang="zh-Hant" size="18" fontset-name="fontset-tc" clip="false">[name-tc]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <TextSymbolizer lang="zh-Hans" size="18" fontset-name="fontset-sc" clip="false">[name-sc]</TextSymbolizer>
         </Rule>
     </Style>
     <Layer name="text" srs="epsg:4326">
@@ -17,8 +24,9 @@
         <Datasource>
             <Parameter name="type">csv</Parameter>
             <Parameter name="inline">
-                x,y,name
-                3,3,化汉语
+                x,y,name-tc,name-sc
+                2.5,1,T:這道菜使用了牛骨熬湯,
+                2.5,3,,S:这道菜使用了牛骨熬汤
             </Parameter>
         </Datasource>
     </Layer>
