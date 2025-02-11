@@ -11,7 +11,7 @@
             <TextSymbolizer lang="zh-Hant" size="18" fontset-name="fontset-tc" clip="false">[name-tc]</TextSymbolizer>
         </Rule>
         <Rule>
-            <TextSymbolizer lang="zh-Hans" size="18" fontset-name="fontset-tc" clip="false">[name-sc]</TextSymbolizer>
+            <TextSymbolizer size="18" fontset-name="fontset-tc" clip="false">[name-sc]</TextSymbolizer>
         </Rule>
     </Style>
     <Layer name="text" srs="epsg:4326">
