@@ -4,19 +4,14 @@
         <Parameter name="bbox">0,0,5,5</Parameter>
     </Parameters>
     <FontSet name="fontset-tc">
-        <Font face-name="Noto Sans TC Regular"/>
-        <Font face-name="Noto Sans SC Regular"/>
-    </FontSet>
-    <FontSet name="fontset-sc">
-        <Font face-name="Noto Sans SC Regular"/>
-        <Font face-name="Noto Sans TC Regular"/>
+        <Font face-name="Noto Sans CJK TC Regular"/>
     </FontSet>
     <Style name="text">
         <Rule>
             <TextSymbolizer lang="zh-Hant" size="18" fontset-name="fontset-tc" clip="false">[name-tc]</TextSymbolizer>
         </Rule>
         <Rule>
-            <TextSymbolizer lang="zh-Hans" size="18" fontset-name="fontset-sc" clip="false">[name-sc]</TextSymbolizer>
+            <TextSymbolizer size="18" fontset-name="fontset-tc" clip="false">[name-sc]</TextSymbolizer>
         </Rule>
     </Style>
     <Layer name="text" srs="epsg:4326">
