@@ -1,0 +1,28 @@
+<Map font-directory="../fonts/Noto/" background-color="#ffffff">
+    <Parameters>
+        <Parameter name="sizes">256,256</Parameter>
+        <Parameter name="bbox">0,0,5,5</Parameter>
+    </Parameters>
+    <FontSet name="fontset-tc">
+        <Font face-name="Noto Sans CJK TC Regular"/>
+    </FontSet>
+    <Style name="text">
+        <Rule>
+            <TextSymbolizer lang="'zh-'+[lang]" size="18" fontset-name="fontset-tc" clip="false">[name-tc]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <TextSymbolizer lang="'zh-'+[lang]" size="18" fontset-name="fontset-tc" clip="false">[name-sc]</TextSymbolizer>
+        </Rule>
+    </Style>
+    <Layer name="text" srs="epsg:4326">
+        <StyleName>text</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                x,y,name-tc,name-sc,lang
+                2.5,1,T:這道菜使用了牛骨熬湯,,hant
+                2.5,3,,S:这道菜使用了牛骨熬汤,hans
+            </Parameter>
+        </Datasource>
+    </Layer>
+</Map>
