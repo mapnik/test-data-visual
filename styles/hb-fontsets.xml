@@ -3,7 +3,7 @@
 <Map background-color="white" srs="epsg:4326"
      font-directory="../fonts/KhmerOS/">
     <Parameters>
-        <Parameter name="sizes">800, 200</Parameter>
+        <Parameter name="sizes">1600, 200</Parameter>
     </Parameters>
 
     <Layer name="layer" srs="epsg:4326">
