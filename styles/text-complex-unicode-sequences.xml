@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map>
+<Map background-color="white" srs="epsg:4326"
+     font-directory="../fonts/Noto/">
+    <Parameters>
+        <Parameter name="sizes">800, 100</Parameter>
+    </Parameters>
+
+    <FontSet name="fallback">
+        <Font face-name="Noto Sans Regular"/>
+        <Font face-name="Noto Sans Sinhala UI Regular"/> 
+    </FontSet>
+
+    <Layer name="layer" srs="epsg:4326">
+            <StyleName>My Style</StyleName>
+            <Datasource>
+                <Parameter name="type">csv</Parameter>
+            <Parameter name="extent">-0.05, -0.01, 0.95, 0.01</Parameter>
+                <Parameter name="file">../../data/csv/points.csv</Parameter>
+            </Datasource>
+    </Layer>
+    <Style name="My Style">
+        <Rule>
+            <Filter>[nr] = 5</Filter>
+            <TextSymbolizer fontset-name="fallback" size="30" placement="point" dy="0">"(abc!) ශ්‍රී (abc!)"</TextSymbolizer>
+        </Rule>
+    </Style>
+</Map>
